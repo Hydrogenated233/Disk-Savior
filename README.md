@@ -1,3 +1,6 @@
+<!-- 
+git ls-files --full-name | grep -vE '/$|^.gitignore$|^LICENSE$' > list.txt && 7z a -tzip 硬盘拯救者v.zip @list.txt && rm list.txt
+-->
 # Disk-Savior
 写于2026.2.23
 
