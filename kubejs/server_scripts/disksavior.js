@@ -423,6 +423,43 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UEV])
         .blastFurnaceTemp(800)
         .duration(100)
+    //单步硅岩燃料，不完美循环，我真的不想再配平了，递归循环是极为邪恶的
+    //化反30电路
+    gtr.chemical_reactor('rlcyyg:naquadah_fuel')
+        .itemInputs('160x gtceu:naquadah_dust')
+        .circuit(30)
+        .inputFluids(
+            'gtceu:ammonia 64000',
+            'gtceu:nitric_acid 64000',
+            'gtceu:fluorine 64000'
+        )
+        .outputFluids(
+            'gtceu:naquadah_fuel 64000',
+            'gtceu:enriched_naquadah_waste 8000'
+        )
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(12800)
+    //单步富集硅岩燃料，完美循环
+    //化反30电路
+    gtr.chemical_reactor('rlcyyg:enriched_naquadah_fuel')
+        .circuit(30)
+        .inputFluids(
+            'minecraft:water 10800000',
+            'gtceu:radon 432000',
+            'gtceu:sulfuric_acid 7847000',
+            'gtceu:naquadria_solution 4021650',
+            'gtceu:hydrogen 398000'
+        )
+        .itemOutputs(
+            '2700x gtceu:hot_trinium_ingot',
+            '199x gtceu:hot_naquadria_ingot'
+        )
+        .outputFluids(
+            'gtceu:enriched_naquadah_fuel 432000',
+            'gtceu:fluorine 2794500'
+        )
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(86400)
     //九倍压缩核废料离心，一号电路
     gtr.centrifuge('rlcyyg:nuclear_waste_9')
         .circuit(1)

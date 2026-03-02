@@ -16,6 +16,8 @@ rlcyyg的神秘私货
 
 如果有请删除，仅保留disksavior.js
 ***
+本readme已经有几个世纪没有更新了，准确内容请认准任务书
+***
 这是我给GregTech Leisure整合包写的私货
 
 当前并不完善，因为我自己只玩到UV，还是一周目

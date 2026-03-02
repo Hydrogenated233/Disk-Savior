@@ -90,8 +90,8 @@
 				id: "2EE827101AC70A3A"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: -2.5d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -442,8 +442,8 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 1.5d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -462,8 +462,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 2.5d
+			x: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -482,8 +482,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 2.5d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -900,28 +900,36 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 3.5d
+			x: 2.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			icon: "minecraft:cobblestone"
-			id: "50C409E34F4A20BC"
-			tasks: [
-				{
-					id: "589F06D97BDBC652"
-					type: "checkmark"
-				}
-				{
-					id: "49F2FB6E9807C018"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
+			description: [
+				"超能硅岩溶液通过产线撕裂的单步硅岩出"
+				"富集硅岩燃料和硅岩燃料各一个单步"
+				""
+				"如果愿意的话更推荐用被动做硅岩燃料产线，这个产线的循环很多，也很直接，做起来也就几步"
+				""
+				"&4注意&r"
+				"出于循环问题，单步硅岩燃料的最终产物会多出富集硅岩废液若干"
+				"因邪恶的递归循环，此处不把其移出配方，也不计算其回收"
+				"所以建议&b写样板时把它点掉&r"
+				"如果你问我你网络里那些多出来的富集硅岩废液怎么处理"
+				"你可以被动回收掉，但我更推荐扔垃圾桶，或者跳过直接做富集硅岩燃料"
+				"但等到超能反应堆的时候还是要做硅岩燃料"
+				"所以我建议别管"
 			]
-			x: -2.0d
-			y: 4.5d
+			icon: "gtceu:naquadah_fuel_bucket"
+			id: "50C409E34F4A20BC"
+			subtitle: "如同那巡礼者们的枯萎花环 来自遥远的异国他乡"
+			tasks: [{
+				id: "589F06D97BDBC652"
+				type: "checkmark"
+			}]
+			title: "单步硅岩燃料 与 富集硅岩燃料"
+			x: 0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
