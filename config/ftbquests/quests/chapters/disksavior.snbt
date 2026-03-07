@@ -75,6 +75,7 @@
 			subtitle: "蒸汽是我最后的生命……"
 			tasks: [{
 				id: "268C6F78E6B1C04E"
+				optional_task: true
 				title: "荷移微？"
 				type: "checkmark"
 			}]
@@ -83,49 +84,36 @@
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			icon: "minecraft:cobblestone"
+			description: [
+				"理论上你堆个几百台能把其他算力机器全部跳了"
+				"就是容易卡，问题很多，不稳定"
+				"那为什么不直接用创造计算机呢"
+				""
+				"为了性能，必须舍弃些什么"
+			]
+			icon: "gtceu:creative_computation_provider"
 			id: "651E6BC0E1CE24AB"
-			tasks: [{
-				id: "2EE827101AC70A3A"
-				type: "checkmark"
-			}]
+			subtitle: "夢之島思念公園"
+			tasks: [
+				{
+					id: "2EE827101AC70A3A"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "006987168B627786"
+					item: "gtceu:creative_computation_provider"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "创造计算机下调到IV"
 			x: -3.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			icon: "minecraft:cobblestone"
-			id: "731B214F76D693A3"
-			tasks: [
-				{
-					id: "214F2C88CFDC723B"
-					type: "checkmark"
-				}
-				{
-					id: "5A8135DD09F1BFAB"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["38166A02EA474C1E"]
-			description: [
-				"&8I am the bone of my steam"
-				"&8Steel is my body,and water is my blood"
-				"&8I have created over a thousand turbines"
-				"&8Unknown to naquadah reactor"
-				"&8Nor known to hyper reactor"
-				"&8Have withstood MSPT to create many mega steam turbine"
-				"&8Yet,those hands will never hold EU"
-				"&8So as I pray"
-				"&8Unlimited steam turbine Works"
-			]
+			description: ["&8"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -135,13 +123,22 @@
 			}
 			id: "70E1F4D106B8A383"
 			subtitle: "流体加热器二号电路加水，记得水多加点"
-			tasks: [{
-				id: "49CE0C30FA7D7150"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "49CE0C30FA7D7150"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "6BE36AAA90B6A5D2"
+					item: "gtceu:steam_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "纯粹的热量……"
-			x: -1.0d
-			y: 1.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -170,6 +167,7 @@
 			tasks: [
 				{
 					id: "5C87CADA0D82F441"
+					optional_task: true
 					type: "checkmark"
 				}
 				{
@@ -213,7 +211,9 @@
 				"前者性能强劲还能打破激光仓和能源仓的界限"
 				"甚至还有&b批处理&r"
 				"&eGTL也有批处理啦！！！！&r"
+				""
 				"&4……"
+				"{@pagebreak}"
 				"&4没有批处理我活不下去了……&r"
 				"{@pagebreak}"
 				"&4批！批！批！批！批！批！批！批！批！批！批！&r"
@@ -262,6 +262,7 @@
 			subtitle: "前有？？？？？，所以？？？？是必要的"
 			tasks: [{
 				id: "09D2B78574A50185"
+				optional_task: true
 				type: "checkmark"
 			}]
 			title: "一些推荐的模组和私货"
@@ -280,11 +281,13 @@
 			tasks: [
 				{
 					id: "322A2B7DA094876B"
+					optional_task: true
 					type: "checkmark"
 				}
 				{
 					id: "2DF633661C1624BD"
 					item: "gtceu:primitive_void_ore"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -305,13 +308,8 @@
 			tasks: [
 				{
 					id: "62776D49938A0122"
-					type: "checkmark"
-				}
-				{
-					id: "403A75ADFD9F5F98"
-					item: "gtceu:data_stick"
 					optional_task: true
-					type: "item"
+					type: "checkmark"
 				}
 				{
 					id: "34F9B18F067E7D5E"
@@ -319,20 +317,39 @@
 					optional_task: true
 					type: "item"
 				}
+				{
+					id: "454899C75E4C3C96"
+					item: "kubejs:overworld_data"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D68F6A278D4C1F2"
+					item: "kubejs:nether_data"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "465D2F2F95E100BF"
+					item: "kubejs:end_data"
+					optional_task: true
+					type: "item"
+				}
 			]
 			title: "无维度需求的配方"
-			x: 0.5d
-			y: 3.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: [""]
+			description: ["好耶不用去打包机输入总线那边一个一个点然后拖进去了"]
 			icon: "kubejs:nuclear_waste"
 			id: "1A90504BB56D5790"
 			subtitle: "西塞罗旷野的龙葵永不凋谢"
 			tasks: [
 				{
 					id: "1C952574DA0EA8D5"
+					optional_task: true
 					type: "checkmark"
 				}
 				{
@@ -342,146 +359,32 @@
 				}
 			]
 			title: "九倍压缩核废料离心（一号电路）"
-			x: 0.0d
-			y: 1.5d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			icon: "minecraft:cobblestone"
-			id: "341BD2640E6DF4E5"
-			tasks: [
-				{
-					id: "235A78662276F79F"
-					type: "checkmark"
-				}
-				{
-					id: "46DFF5CA72A29E73"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
+			description: [
+				"可能会影响平衡"
+				"但是你不用换维护仓了"
 			]
-			x: 1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			icon: "minecraft:cobblestone"
-			id: "6ACA30E3CBF35EE8"
-			tasks: [
-				{
-					id: "6B9DC971A850BF4B"
-					type: "checkmark"
-				}
-				{
-					id: "79881CCAFA2129B8"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			icon: "minecraft:cobblestone"
-			id: "3FDD691A26F93072"
-			tasks: [
-				{
-					id: "25F4C4530394AD8E"
-					type: "checkmark"
-				}
-				{
-					id: "343E4DFE34E4BDCF"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			icon: "minecraft:cobblestone"
-			id: "684D38E83F2AAE17"
-			tasks: [
-				{
-					id: "72657DE2C806565B"
-					type: "checkmark"
-				}
-				{
-					id: "32383607CA6AF0D7"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: -2.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			icon: "minecraft:cobblestone"
-			id: "24B580CECE38C50E"
-			tasks: [
-				{
-					id: "623C57695F22E7EB"
-					type: "checkmark"
-				}
-				{
-					id: "59763268576FA1F2"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: -0.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			icon: "minecraft:cobblestone"
-			id: "456108DF3E2A035F"
-			tasks: [
-				{
-					id: "606162B1A0D80C03"
-					type: "checkmark"
-				}
-				{
-					id: "1B305DE38D9DAB48"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			icon: "minecraft:cobblestone"
+			icon: "gtceu:law_cleaning_gravity_configuration_maintenance_hatch"
 			id: "4B2C74FB285A1936"
+			subtitle: "環太平洋擬装網"
 			tasks: [
 				{
 					id: "7E2D4386F92023ED"
+					optional_task: true
 					type: "checkmark"
 				}
 				{
 					id: "0E3C47DA57C46167"
-					item: "minecraft:oak_log"
+					item: "gtceu:law_cleaning_gravity_configuration_maintenance_hatch"
 					optional_task: true
 					type: "item"
 				}
 			]
+			title: "可配置重力绝对洁净维护仓下调LV"
 			x: -3.0d
 			y: -0.5d
 		}
@@ -506,42 +409,25 @@
 			tasks: [
 				{
 					id: "3DBA0B3806333EBE"
+					optional_task: true
 					type: "checkmark"
 				}
 				{
 					id: "1301AD8C3461855E"
 					item: "gtceu:large_gas_collector"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0B6A4B75DF66468F"
 					item: "gtceu:cold_ice_freezer"
+					optional_task: true
 					type: "item"
 				}
 			]
 			title: "大集气加强"
 			x: 6.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			icon: "minecraft:cobblestone"
-			id: "67854357137EC9E5"
-			tasks: [
-				{
-					id: "29C49200C71757EF"
-					type: "checkmark"
-				}
-				{
-					id: "417CB5FAB85A3271"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 2.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["4B7BA4B00F4A93B6"]
@@ -577,6 +463,7 @@
 			tasks: [
 				{
 					id: "61E6E849437A87D8"
+					optional_task: true
 					type: "checkmark"
 				}
 				{
@@ -592,13 +479,18 @@
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: ["扭 秘银块，输入懒得说了"]
+			description: [
+				"扭 秘银块，输入懒得说了"
+				"等你能用太空电梯直接挖精金化合物的时候"
+				"就可以换掉配方了"
+			]
 			icon: "gtceu:adamantine_dust"
 			id: "0DD66C85912A4D31"
 			subtitle: "Another Day Comes"
 			tasks: [
 				{
 					id: "351ED011811F00B7"
+					optional_task: true
 					type: "checkmark"
 				}
 				{
@@ -609,48 +501,8 @@
 				}
 			]
 			title: "单步精金"
-			x: -0.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			icon: "minecraft:cobblestone"
-			id: "58E20C8BC8D0E4A4"
-			tasks: [
-				{
-					id: "01840D7E805FFAD5"
-					type: "checkmark"
-				}
-				{
-					id: "610876D3311C7AA0"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: -0.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			icon: "minecraft:cobblestone"
-			id: "0207E7DC60DC4D12"
-			tasks: [
-				{
-					id: "5D7DC859FA30F7E5"
-					type: "checkmark"
-				}
-				{
-					id: "05CB21E7F46FF049"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: -3.0d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4B7BA4B00F4A93B6"]
@@ -824,6 +676,7 @@
 			tasks: [
 				{
 					id: "2A73E915D33C0176"
+					optional_task: true
 					type: "checkmark"
 				}
 				{
@@ -833,7 +686,7 @@
 					type: "item"
 				}
 			]
-			title: "单步硫酸铀"
+			title: "粉直出单步硫酸铀"
 			x: 1.0d
 			y: 4.0d
 		}
@@ -846,6 +699,7 @@
 			tasks: [
 				{
 					id: "1CC3E470C26221D2"
+					optional_task: true
 					type: "checkmark"
 				}
 				{
@@ -885,26 +739,6 @@
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			icon: "minecraft:cobblestone"
-			id: "76B1D8492EB42122"
-			tasks: [
-				{
-					id: "1EB2DD713C4FCF05"
-					type: "checkmark"
-				}
-				{
-					id: "53422FCB66AD5C96"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 2.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["38166A02EA474C1E"]
 			description: [
 				"超能硅岩溶液通过产线撕裂的单步硅岩出"
 				"富集硅岩燃料和硅岩燃料各一个单步"
@@ -923,19 +757,35 @@
 			icon: "gtceu:naquadah_fuel_bucket"
 			id: "50C409E34F4A20BC"
 			subtitle: "如同那巡礼者们的枯萎花环 来自遥远的异国他乡"
-			tasks: [{
-				id: "589F06D97BDBC652"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "589F06D97BDBC652"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "6BE02F07FF736C9B"
+					item: "gtceu:naquadah_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "441ABD24A53BF1B1"
+					item: "gtceu:enriched_naquadah_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "单步硅岩燃料 与 富集硅岩燃料"
-			x: 0.5d
+			x: 1.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [
 				"为鸿蒙之眼添加了集大成配方"
-				"自带批处理1024倍"
+				"自带批处理16384倍"
+				"实际输出数值要-1，因为2147483648x会爆"
 				"集成了来自群友@aach.aic的鸿蒙之眼+"
 				""
 				"下一页是鸿蒙之眼+添加的产物"
@@ -972,6 +822,7 @@
 			tasks: [
 				{
 					id: "4E70A2145E8DDD77"
+					optional_task: true
 					type: "checkmark"
 				}
 				{
@@ -982,7 +833,7 @@
 				}
 				{
 					id: "76AB695A93299CC0"
-					item: "disksavior:quantum_chromodynamic_charge_1024"
+					item: "disksavior:quantum_chromodynamic_charge_super"
 					optional_task: true
 					type: "item"
 				}
@@ -1009,6 +860,7 @@
 			tasks: [
 				{
 					id: "4A55998849A0E7CB"
+					optional_task: true
 					type: "checkmark"
 				}
 				{
@@ -1044,7 +896,133 @@
 			]
 			title: "矿粉还原矿处中间产物"
 			x: 0.0d
-			y: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"钢铁筋骨在苍穹下织成密网，锈蚀与银亮交错的涡轮叶片，如千万只钢铁巨蝶，驮着厚重蒸汽，在机架间舒展翅翼——这是他以MSPT颠簸为代价，亲手浇筑的蒸汽涡轮森林，每一寸金属都刻着他的坚守。"
+				""
+				"他立于森林之巅，滚烫的平台灼着鞋底，指尖抚过涡轮余温未散的外壳，掌心薄茧与冰冷金属相撞，星火细碎。脚下管道如巨龙奔涌，蒸汽咆哮着穿钢铁肌理，每一次震颤，都是他与这片天地的共鸣。"
+				""
+				"没有那夸达反应堆的轰鸣，没有超能反应堆的锋芒，他的战场，是蒸汽与钢铁的纠缠。曾在MSPT的动荡中稳住摇晃的机架，曾在蒸汽迷雾中检修每一道缝隙，千台涡轮的嗡鸣，是他无声的咏唱。"
+				""
+				"蒸汽裹着水汽模糊他的轮廓，却压不弯他挺直的脊梁。他将沸腾水汽淬成万家灯火的能量，双手握着扳手，触不到半分流转的EU，却在这片钢铁森林里，完成了最沉默的升华——以蒸汽为骨，以钢铁为证，以牺牲为炬，让无限涡轮的轰鸣，成为超越一切的信仰。"
+			]
+			icon: "disksavior:steam_is_my_last_life"
+			id: "27B75C8FD6E0ADCE"
+			shape: "heart"
+			size: 5.0d
+			subtitle: "于顶点，孑然一身，至高……"
+			tasks: [
+				{
+					id: "5D4E63FC293A1C26"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "7B705122FBE9DCDD"
+					item: "disksavior:steam_is_my_last_life"
+					type: "item"
+				}
+			]
+			title: "超凡脱俗"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [""]
+			id: "407ECB9084927CB8"
+			invisible: true
+			tasks: [
+				{
+					id: "217A9BEE7E35DF7E"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "5DA35F5774A37063"
+					item: "minecraft:oak_log"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [""]
+			id: "5A8A7F0E764E29C8"
+			tasks: [
+				{
+					id: "620AF762CAAB6A8D"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "1E23338A69584240"
+					item: "minecraft:oak_log"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"产线爆破、产线撕裂、ADD的简化富勒烯配方阶段都太晚"
+				"遂加"
+			]
+			icon: "gtceu:fullerene_dust"
+			id: "32591B8389C393BE"
+			subtitle: "Dies macht mich antik"
+			tasks: [
+				{
+					id: "4816DCC871074FD0"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "55247C7DE88A209B"
+					item: "gtceu:fullerene_dust"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "单步富勒烯"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"产物太多，jei写不下，但机器能正常工作和输出的"
+				"所以写样板的时候最好把副产物点掉"
+				"虽然不点掉也不会出什么问题"
+			]
+			icon: "gtceu:indium_dust"
+			id: "5C8F8C67F6E4347E"
+			subtitle: "愿我们的烦恼与忧虑化为乌有"
+			tasks: [
+				{
+					id: "3018391E0487C923"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "6C8FC4D472830B83"
+					item: "gtceu:indium_dust"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "粉直出单步铟"
+			x: -1.5d
+			y: 5.0d
 		}
 	]
 	title: "硬盘拯救者"
