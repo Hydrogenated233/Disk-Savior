@@ -23,6 +23,10 @@
 !config/ftbquests/quests/chapters/disksavior.snbt
 #kubejs
 !KubeJS/
+
+!kubejs/client_scripts/
+!kubejs/client_scripts/disk__savior.js
+
 !KubeJS/server_scripts/
 !KubeJS/server_scripts/disksavior.js
 

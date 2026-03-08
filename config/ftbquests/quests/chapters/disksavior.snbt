@@ -22,7 +22,7 @@
 			]
 			icon: "gtceu:glue_bucket"
 			id: "71635B58E5ED57C9"
-			subtitle: "救济……"
+			subtitle: "救済の技法"
 			tasks: [
 				{
 					id: "667255FD560051CB"
@@ -62,13 +62,7 @@
 				""
 				"任务的副标题如果感兴趣可以去查查都是什么（坏笑）"
 			]
-			icon: {
-				Count: 1
-				id: "computercraft:disk"
-				tag: {
-					Color: 3368652
-				}
-			}
+			icon: "gtlcore:item_infinity_cell"
 			id: "38166A02EA474C1E"
 			shape: "none"
 			size: 2.0d
@@ -113,7 +107,7 @@
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: ["&8"]
+			description: ["流体加热器二号电路加水，记得水多加点&8"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -122,7 +116,7 @@
 				}
 			}
 			id: "70E1F4D106B8A383"
-			subtitle: "流体加热器二号电路加水，记得水多加点"
+			subtitle: "Voice～抵达的场所～"
 			tasks: [
 				{
 					id: "49CE0C30FA7D7150"
@@ -303,7 +297,7 @@
 			]
 			title: "用水的原始矿机"
 			x: 7.0d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -437,7 +431,7 @@
 			]
 			title: "大集气加强"
 			x: 6.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4B7BA4B00F4A93B6"]
@@ -802,7 +796,8 @@
 				"为鸿蒙之眼添加了集大成配方"
 				"自带批处理16384倍"
 				"实际输出数值要-1，因为2147483648x会爆"
-				"集成了来自群友@aach.aic的鸿蒙之眼+"
+				"&b集成了来自群友@aach.aic的鸿蒙之眼+&r"
+				"&4产物太多，jei显示不全，注意&r"
 				""
 				"下一页是鸿蒙之眼+添加的产物"
 				"我懒得对照写游戏内的名字了"
@@ -855,8 +850,8 @@
 				}
 			]
 			title: "鸿蒙之眼加强"
-			x: 8.0d
-			y: 0.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -989,10 +984,7 @@
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: [
-				"产线爆破、产线撕裂、ADD的简化富勒烯配方阶段都太晚"
-				"遂加"
-			]
+			description: ["比撕裂的还少一步"]
 			icon: "gtceu:fullerene_dust"
 			id: "32591B8389C393BE"
 			subtitle: "Dies macht mich antik"
@@ -1042,7 +1034,14 @@
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: ["666他怎么能用化反运行"]
+			description: [
+				"666他怎么能用化反运行"
+				""
+				"有一大一小两个配方"
+				"大的相比小的不加耗电和耗时"
+				"因为鸿蒙之眼的耗电和耗时是锁死的"
+				"所以这个其实还挺还原"
+			]
 			icon: "disksavior:quantum_chromodynamic_charge_super"
 			id: "19769CB12DDAA49D"
 			subtitle: "熵次元界大召唤"
@@ -1059,15 +1058,21 @@
 					type: "item"
 				}
 				{
-					id: "5EEDB2F5152EC77F"
+					id: "41AFDF31C6A2A85D"
+					item: "kubejs:quantum_chromodynamic_charge"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "24755C69AB0AECEF"
 					item: "disksavior:quantum_chromodynamic_charge_super"
 					optional_task: true
 					type: "item"
 				}
 			]
 			title: "化反鸿蒙"
-			x: 9.0d
-			y: 0.0d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -1097,7 +1102,10 @@
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: ["做下界之星也许用得到"]
+			description: [
+				"做下界之星也许用得到"
+				"让你在做铂处理之前能方便点拿到下界之星"
+			]
 			icon: "minecraft:soul_sand"
 			id: "7445959BDA67A481"
 			subtitle: "海牧师与知更鸟"
@@ -1113,10 +1121,526 @@
 					optional_task: true
 					type: "item"
 				}
+				{
+					id: "2E04C364A03FD408"
+					item: "minecraft:wither_skeleton_skull"
+					optional_task: true
+					type: "item"
+				}
 			]
-			title: " 灵魂沙合成"
+			title: " 灵魂沙合成 闪电处理凋零骷髅头"
 			x: 0.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"真的用得到吗"
+				"不知道"
+			]
+			icon: "minecraft:grass_block"
+			id: "79EC27C7CAEC073E"
+			subtitle: "Hai yai forces"
+			tasks: [
+				{
+					id: "3311CC1CECA30C60"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "1819917358C64E46"
+					item: "minecraft:grass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0AEA2D0EE666FE2F"
+					item: "minecraft:grass_block"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "搅拌草方块 闪电处理草"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [""]
+			id: "735726D10861E8A6"
+			tasks: [
+				{
+					id: "5BE263F28754178A"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "3C74645399925DED"
+					item: "minecraft:oak_log"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [""]
+			id: "3494BADB36BB8743"
+			tasks: [
+				{
+					id: "0C9DE6AD279016FC"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "4757A2A95B7325E0"
+					item: "minecraft:oak_log"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"产物太多，所以jei里放不下"
+				"这个配方集成了原版木化和产线爆破的木化出萘"
+				"所以你现在只需要做一台木化了"
+			]
+			icon: "gtceu:wood_distillation"
+			id: "6C8FB690B7EC68CF"
+			subtitle: "In↗Ya↘↗"
+			tasks: [
+				{
+					id: "65B4E69681406311"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "139A961C9B005DA6"
+					item: "gtceu:wood_distillation"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "木化集大成"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"有循环不能下单怎么办？"
+				"用库存拉取"
+				"会串怎么办？"
+				"那还是无限元件吧"
+				"别折磨自己"
+			]
+			icon: {
+				Count: 1
+				id: "ae2:portable_item_cell_16k"
+				tag: {
+					RepairCost: 0
+					amts: [L;
+						1L
+						1L
+						1L
+						1L
+						1L
+						1L
+						1L
+						1L
+						1L
+						1L
+						1L
+						1L
+						1L
+						1L
+						1L
+						1L
+					]
+					display: {
+						Name: "{\"text\":\"染料元件包\"}"
+					}
+					ic: 16L
+					internalCurrentPower: 20000.0d
+					keys: [
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:black_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:blue_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:brown_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:cyan_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:gray_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:green_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:light_blue_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:lime_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:magenta_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:orange_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:pink_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:purple_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:red_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:white_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:yellow_dye"
+								}
+							}
+						}
+						{
+							"#c": "ae2:i"
+							id: "expatternprovider:infinity_cell"
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "gtceu:light_gray_dye"
+								}
+							}
+						}
+					]
+				}
+			}
+			id: "30EDD5DEC493E4EB"
+			subtitle: "論理空軍"
+			tasks: [
+				{
+					id: "6D60E2FF915AE7B2"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "1406B83BF1FA24D5"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_16k"
+						tag: {
+							RepairCost: 0
+							amts: [L;
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+							]
+							display: {
+								Name: "{\"text\":\"染料元件包\"}"
+							}
+							ic: 16L
+							internalCurrentPower: 20000.0d
+							keys: [
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:black_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:blue_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:brown_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:cyan_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:gray_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:green_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:light_blue_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:lime_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:magenta_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:orange_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:pink_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:purple_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:red_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:white_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:yellow_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:f"
+											id: "gtceu:light_gray_dye"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "染料元件包"
+			x: 7.0d
+			y: 0.0d
 		}
 	]
 	title: "硬盘拯救者"

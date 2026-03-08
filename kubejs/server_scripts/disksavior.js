@@ -1,30 +1,37 @@
 ServerEvents.recipes(event => {
     const gtr = event.recipes.gtceu
-    //原始虚空矿机用水
-    gtr.primitive_void_ore('disksavior:water')
-        .inputFluids('minecraft:water 1')
+    const packed_infinity_cell = (cellname, type, list) => {//从产线撕裂里扒过来的，感谢@？（-5周目max小登） 
+        const list_length = list.length
+        let a = "1L,"
+        a = a.repeat(list_length - 1) + '1L'
+        let b = "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:" + type + "\",id:\"" + list[0] + "\"}}}"
+        for (let i = 1; i < list_length; i++) {
+            b = b + ",{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:" + type + "\",id:\"" + list[i] + "\"}}}"
+        }
+        return Item.of('ae2:portable_item_cell_16k',
+            "{RepairCost:0,amts:[L;" + a + "],display:{Name:'{\"text\":\"" + cellname + "\"}'},ic:" + list_length + "L,internalCurrentPower:20000.0d,keys:[" + b + "]}")
+    }
+    //染料元件包
+    gtr.assembler('disksavior:dye_pack')
+        .itemInputs('32x gtceu:salt_dust')
+        .inputFluids('gtceu:sulfuric_acid 4000')
+        .itemOutputs(packed_infinity_cell('染料元件包', 'f', ['gtceu:black_dye', 'gtceu:blue_dye', 'gtceu:brown_dye', 'gtceu:cyan_dye', 'gtceu:gray_dye', 'gtceu:green_dye', 'gtceu:light_blue_dye', 'gtceu:lime_dye', 'gtceu:magenta_dye', 'gtceu:orange_dye', 'gtceu:pink_dye', 'gtceu:purple_dye', 'gtceu:red_dye', 'gtceu:white_dye', 'gtceu:yellow_dye', 'gtceu:light_gray_dye']))
         .duration(200)
-    //灵魂沙
-    gtr.mix('disksavior:soul_sand')
-        .itemInputs('minecraft:sand')
-        .inputFluids('minecraft:lava 100')
-        .itemOutputs('disksavior:soul_sand')
-        .EUt(GTValues.VA[GTValues.ULV])
-        .duration(10)
+        .EUt(GTValues.VA[GTValues.LV])
     //蒸汽产出
     gtr.fluid_heater('disksavior:steam_is_my_last_life')
         .circuit(2)
         .inputFluids('minecraft:water 2147483648')
         .outputFluids('gtceu:steam 343597383680')
         .EUt(GTValues.VA[GTValues.ULV])
-        .duration(2987)
+        .duration(200)
     //蒸汽发电加强
     gtr.steam_turbine('disksavior:steam_is_my_last_life')
         .notConsumable('disksavior:steam_is_my_last_life')
         .inputFluids('gtceu:steam 24665456015048704')
         .outputFluids('gtceu:distilled_water 57646075230342348')
         .EUt(-2147483648 * 2147483648)
-        .duration(2987)
+        .duration(2000)
     //极高密度量子色动力学爆弹
     gtr.compressor('disksavior:quantum_chromodynamic_charge_super')
         .itemInputs('16384x kubejs:quantum_chromodynamic_charge')
@@ -38,6 +45,40 @@ ServerEvents.recipes(event => {
         .itemOutputs('disksavior:steam_is_my_last_life')
         .EUt(1)
         .duration(370410080)
+    //原始虚空矿机用水
+    gtr.primitive_void_ore('disksavior:water')
+        .inputFluids('minecraft:water 1')
+        .duration(200)
+    //灵魂沙
+    gtr.mixer('disksavior:soul_sand')
+        .itemInputs('minecraft:sand')
+        .inputFluids('minecraft:lava 100')
+        .itemOutputs('minecraft:soul_sand')
+        .EUt(GTValues.VA[GTValues.ULV])
+        .duration(10)
+    //凋零骷髅头
+    gtr.lightning_processor('disksavior:wither_skeleton_skull')
+        .itemInputs(
+            '4x gtceu:carbon_dust',
+            'minecraft:skeleton_skull'
+        )
+        .itemOutputs('minecraft:wither_skeleton_skull')
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(200)
+    //草
+    gtr.lightning_processor('disksavior:grass')
+        .itemInputs('minecraft:wheat_seeds')
+        .itemOutputs('minecraft:grass')
+        .EUt(GTValues.VA[GTValues.ULV])
+        .duration(10)
+    //草方块
+    gtr.mixer('disksavior:grass_block')
+        .circuit(2)
+        .itemInputs('minecraft:grass', 'minecraft:dirt')
+        .inputFluids('minecraft:water 100')
+        .itemOutputs('minecraft:grass_block')
+        .EUt(GTValues.VA[GTValues.ULV])
+        .duration(10)
     //创造计算机下调到IV
     gtr.assembler('disksavior:creative_computation_provider')
         .itemInputs(
@@ -51,10 +92,10 @@ ServerEvents.recipes(event => {
             '21x minecraft:packed_ice',
             '18520504x minecraft:blue_ice'
         )
-        .inputFluids('gtceu:glue 94928896')
+        .inputFluids('gtceu:glue 185254000')
         .itemOutputs('gtceu:creative_computation_provider')
         .EUt(GTValues.VA[GTValues.LuV])
-        .duration(185254)
+        .duration(2000)
     //创造数据访问仓下调到IV
     gtr.assembler('disksavior:creative_data_access_hatch')
         .itemInputs(
@@ -66,17 +107,50 @@ ServerEvents.recipes(event => {
             '256x gtceu:data_receiver_hatch',
             '16384x gtceu:normal_optical_pipe'
         )
-        .inputFluids('gtceu:glue 94928896')
+        .inputFluids('gtceu:glue 185254000')
         .itemOutputs('gtceu:creative_data_access_hatch')
         .EUt(GTValues.VA[GTValues.LuV])
-        .duration(185254)
+        .duration(2000)
     //可配置重力绝对洁净维护仓下调LV
     gtr.assembler('disksavior:law_cleaning_gravity_configuration_maintenance_hatch')
         .itemInputs('131072x gtceu:maintenance_hatch')
         .inputFluids('gtceu:glue 18520504')
         .itemOutputs('gtceu:law_cleaning_gravity_configuration_maintenance_hatch')
         .EUt(GTValues.VA[GTValues.ULV])
-        .duration(2897)
+        .duration(2000)
+    //木化集大成
+    gtr.wood_distillation("disksavior:wood_distillation_super")
+        .itemInputs("80x #minecraft:logs")
+        .inputFluids("minecraft:water 16000")
+        .outputFluids(
+            "gtceu:ammonia 2400",
+            "gtceu:carbon_dioxide 2000",
+            "gtceu:ethylbenzene 2000",
+            "gtceu:naphthalene 1640",
+            "gtceu:creosote 1120",
+            "gtceu:phenol 485",
+            "gtceu:hydrogen_sulfide 300",
+            "minecraft:water 800",
+            "gtceu:carbon 490",
+            "gtceu:methanol 480",
+            "gtceu:benzene 350",
+            "gtceu:carbon_monoxide 340",
+            "gtceu:dimethylbenzene 240",
+            "gtceu:acetic_acid 160",
+            "gtceu:methane 130",
+            "gtceu:acetone 80",
+            "gtceu:toluene 75",
+            "gtceu:ethylene 20",
+            "gtceu:hydrogen 20",
+            "gtceu:methyl_acetate 16",
+            "gtceu:ethanol 16"
+        )
+        .itemOutputs(
+            "8x gtceu:coke_dust",
+            "8x gtceu:dark_ash_dust"
+        )
+        .duration(400)
+        .EUt(120)
     //粉直出单步铟
     gtr.chemical_reactor('rlcyyg:indium_dust_pattern')
         .circuit(5)
@@ -120,7 +194,7 @@ ServerEvents.recipes(event => {
             'gtceu:hydrogen 60000',
             'gtceu:ammonia 640000'
         )
-        .EUt(GTValues.VA[GTValues.UEV])
+        .EUt(GTValues.VA[GTValues.UIV])
         .blastFurnaceTemp(800)
         .duration(1280)
     //单步硫酸铀
@@ -168,7 +242,7 @@ ServerEvents.recipes(event => {
         )
         .EUt(GTValues.VA[GTValues.UEV])
         .blastFurnaceTemp(800)
-        .duration(100)
+        .duration(2400)
     //单步硅岩燃料，不完美循环，我真的不想再配平了，递归循环是极为邪恶的
     //化反30电路
     gtr.chemical_reactor('disksavior:naquadah_fuel')
@@ -431,7 +505,7 @@ ServerEvents.recipes(event => {
             'gtceu:oil 307200'
         )
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(200)
+        .duration(1000)
     //月球
     gtr.electrolyzer('disksavior:mv_t1')
         .notConsumable('1024x gtceu:mv_fluid_drilling_rig')
@@ -441,7 +515,7 @@ ServerEvents.recipes(event => {
             'gtceu:helium 307200'
         )
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(200)
+        .duration(1000)
     //火星
     gtr.electrolyzer('disksavior:mv_t2')
         .notConsumable('1024x gtceu:mv_fluid_drilling_rig')
@@ -450,7 +524,7 @@ ServerEvents.recipes(event => {
             'gtceu:radon 307200'
         )
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(200)
+        .duration(1000)
     //金星
     gtr.electrolyzer('disksavior:mv_t3_1')
         .notConsumable('1024x gtceu:mv_fluid_drilling_rig')
@@ -459,7 +533,7 @@ ServerEvents.recipes(event => {
             'gtceu:sulfuric_acid 307200'
         )
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(200)
+        .duration(1000)
     //水星
     gtr.electrolyzer('disksavior:mv_t3_2')
         .notConsumable('1024x gtceu:mv_fluid_drilling_rig')
@@ -468,7 +542,7 @@ ServerEvents.recipes(event => {
             'gtceu:deuterium 230400'
         )
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(200)
+        .duration(1000)
     //下界
     gtr.electrolyzer('disksavior:mv_t3_3')
         .notConsumable('1024x gtceu:mv_fluid_drilling_rig')
@@ -478,7 +552,7 @@ ServerEvents.recipes(event => {
             'gtceu:natural_gas 537600'
         )
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(200)
+        .duration(1000)
     //谷神星
     gtr.electrolyzer('disksavior:mv_t4')
         .notConsumable('1024x gtceu:mv_fluid_drilling_rig')
@@ -490,7 +564,7 @@ ServerEvents.recipes(event => {
             'gtceu:krypton 307200'
         )
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(200)
+        .duration(1000)
     //木卫一
     gtr.electrolyzer('disksavior:mv_t5_1')
         .notConsumable('1024x gtceu:mv_fluid_drilling_rig')
@@ -499,7 +573,7 @@ ServerEvents.recipes(event => {
             'gtceu:coal_gas 307200'
         )
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(200)
+        .duration(1000)
     //木卫三
     gtr.electrolyzer('disksavior:mv_t5_2')
         .notConsumable('1024x gtceu:mv_fluid_drilling_rig')
@@ -508,7 +582,7 @@ ServerEvents.recipes(event => {
             'gtceu:hydrochloric_acid 307200'
         )
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(200)
+        .duration(1000)
     //冥王星
     gtr.electrolyzer('disksavior:mv_t6_1')
         .notConsumable('1024x gtceu:mv_fluid_drilling_rig')
@@ -517,7 +591,7 @@ ServerEvents.recipes(event => {
             'gtceu:nitric_acid 307200'
         )
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(200)
+        .duration(1000)
     //土卫二
     gtr.electrolyzer('disksavior:mv_t6_2')
         .notConsumable('1024x gtceu:mv_fluid_drilling_rig')
@@ -527,7 +601,7 @@ ServerEvents.recipes(event => {
             'gtceu:fluorine 153600'
         )
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(200)
+        .duration(1000)
     //土卫六
     gtr.electrolyzer('disksavior:mv_t6_3')
         .notConsumable('1024x gtceu:mv_fluid_drilling_rig')
@@ -538,7 +612,7 @@ ServerEvents.recipes(event => {
             'gtceu:charcoal_byproducts 153600'
         )
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(200)
+        .duration(1000)
     //巴纳德C
     gtr.electrolyzer('disksavior:mv_t8')
         .notConsumable('1024x gtceu:mv_fluid_drilling_rig')
@@ -547,7 +621,7 @@ ServerEvents.recipes(event => {
             'gtceu:unknowwater 307200'
         )
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(200)
+        .duration(1000)
     //————————————————————————————————————————————————————————————————————————————————hv
     //主世界
     gtr.electrolyzer('disksavior:hv_t0')
@@ -562,7 +636,7 @@ ServerEvents.recipes(event => {
             'gtceu:oil 4915200'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(200)
+        .duration(1000)
     //月球
     gtr.electrolyzer('disksavior:hv_t1')
         .notConsumable('1024x gtceu:hv_fluid_drilling_rig')
@@ -572,7 +646,7 @@ ServerEvents.recipes(event => {
             'gtceu:helium 4915200'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(200)
+        .duration(1000)
     //火星
     gtr.electrolyzer('disksavior:hv_t2')
         .notConsumable('1024x gtceu:hv_fluid_drilling_rig')
@@ -581,7 +655,7 @@ ServerEvents.recipes(event => {
             'gtceu:radon 4915200'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(200)
+        .duration(1000)
     //金星
     gtr.electrolyzer('disksavior:hv_t3_1')
         .notConsumable('1024x gtceu:hv_fluid_drilling_rig')
@@ -590,7 +664,7 @@ ServerEvents.recipes(event => {
             'gtceu:sulfuric_acid 4915200'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(200)
+        .duration(1000)
     //水星
     gtr.electrolyzer('disksavior:hv_t3_2')
         .notConsumable('1024x gtceu:hv_fluid_drilling_rig')
@@ -599,7 +673,7 @@ ServerEvents.recipes(event => {
             'gtceu:deuterium 3686400'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(200)
+        .duration(1000)
     //下界
     gtr.electrolyzer('disksavior:hv_t3_3')
         .notConsumable('1024x gtceu:hv_fluid_drilling_rig')
@@ -609,7 +683,7 @@ ServerEvents.recipes(event => {
             'gtceu:natural_gas 8601600'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(200)
+        .duration(1000)
     //谷神星
     gtr.electrolyzer('disksavior:hv_t4')
         .notConsumable('1024x gtceu:hv_fluid_drilling_rig')
@@ -621,7 +695,7 @@ ServerEvents.recipes(event => {
             'gtceu:krypton 4915200'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(200)
+        .duration(1000)
     //木卫一
     gtr.electrolyzer('disksavior:hv_t5_1')
         .notConsumable('1024x gtceu:hv_fluid_drilling_rig')
@@ -630,7 +704,7 @@ ServerEvents.recipes(event => {
             'gtceu:coal_gas 4915200'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(200)
+        .duration(1000)
     //木卫三
     gtr.electrolyzer('disksavior:hv_t5_2')
         .notConsumable('1024x gtceu:hv_fluid_drilling_rig')
@@ -639,7 +713,7 @@ ServerEvents.recipes(event => {
             'gtceu:hydrochloric_acid 4915200'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(200)
+        .duration(1000)
     //冥王星
     gtr.electrolyzer('disksavior:hv_t6_1')
         .notConsumable('1024x gtceu:hv_fluid_drilling_rig')
@@ -648,7 +722,7 @@ ServerEvents.recipes(event => {
             'gtceu:nitric_acid 4915200'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(200)
+        .duration(1000)
     //土卫二
     gtr.electrolyzer('disksavior:hv_t6_2')
         .notConsumable('1024x gtceu:hv_fluid_drilling_rig')
@@ -658,7 +732,7 @@ ServerEvents.recipes(event => {
             'gtceu:fluorine 2457600'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(200)
+        .duration(1000)
     //土卫六
     gtr.electrolyzer('disksavior:hv_t6_3')
         .notConsumable('1024x gtceu:hv_fluid_drilling_rig')
@@ -669,7 +743,7 @@ ServerEvents.recipes(event => {
             'gtceu:charcoal_byproducts 2457600'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(200)
+        .duration(1000)
     //巴纳德C
     gtr.electrolyzer('disksavior:hv_t8')
         .notConsumable('1024x gtceu:hv_fluid_drilling_rig')
@@ -678,7 +752,7 @@ ServerEvents.recipes(event => {
             'gtceu:unknowwater 4915200'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(200)
+        .duration(1000)
     //————————————————————————————————————————————————————————————————————————————————ev
     //主世界
     gtr.electrolyzer('disksavior:ev_t0')
@@ -693,7 +767,7 @@ ServerEvents.recipes(event => {
             'gtceu:oil 19660800'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(1000)
     //月球
     gtr.electrolyzer('disksavior:ev_t1')
         .notConsumable('1024x gtceu:ev_fluid_drilling_rig')
@@ -703,7 +777,7 @@ ServerEvents.recipes(event => {
             'gtceu:helium 19660800'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(1000)
     //火星
     gtr.electrolyzer('disksavior:ev_t2')
         .notConsumable('1024x gtceu:ev_fluid_drilling_rig')
@@ -712,7 +786,7 @@ ServerEvents.recipes(event => {
             'gtceu:radon 19660800'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(1000)
     //金星
     gtr.electrolyzer('disksavior:ev_t3_1')
         .notConsumable('1024x gtceu:ev_fluid_drilling_rig')
@@ -721,7 +795,7 @@ ServerEvents.recipes(event => {
             'gtceu:sulfuric_acid 19660800'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(1000)
     //水星
     gtr.electrolyzer('disksavior:ev_t3_2')
         .notConsumable('1024x gtceu:ev_fluid_drilling_rig')
@@ -730,7 +804,7 @@ ServerEvents.recipes(event => {
             'gtceu:deuterium 14745600'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(1000)
     //下界
     gtr.electrolyzer('disksavior:ev_t3_3')
         .notConsumable('1024x gtceu:ev_fluid_drilling_rig')
@@ -740,7 +814,7 @@ ServerEvents.recipes(event => {
             'gtceu:natural_gas 34406400'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(1000)
     //谷神星
     gtr.electrolyzer('disksavior:ev_t4')
         .notConsumable('1024x gtceu:ev_fluid_drilling_rig')
@@ -752,7 +826,7 @@ ServerEvents.recipes(event => {
             'gtceu:krypton 19660800'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(1000)
     //木卫一
     gtr.electrolyzer('disksavior:ev_t5_1')
         .notConsumable('1024x gtceu:ev_fluid_drilling_rig')
@@ -761,7 +835,7 @@ ServerEvents.recipes(event => {
             'gtceu:coal_gas 19660800'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(1000)
     //木卫三
     gtr.electrolyzer('disksavior:ev_t5_2')
         .notConsumable('1024x gtceu:ev_fluid_drilling_rig')
@@ -770,7 +844,7 @@ ServerEvents.recipes(event => {
             'gtceu:hydrochloric_acid 19660800'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(1000)
     //冥王星
     gtr.electrolyzer('disksavior:ev_t6_1')
         .notConsumable('1024x gtceu:ev_fluid_drilling_rig')
@@ -779,7 +853,7 @@ ServerEvents.recipes(event => {
             'gtceu:nitric_acid 19660800'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(1000)
     //土卫二
     gtr.electrolyzer('disksavior:ev_t6_2')
         .notConsumable('1024x gtceu:ev_fluid_drilling_rig')
@@ -789,7 +863,7 @@ ServerEvents.recipes(event => {
             'gtceu:fluorine 9830400'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(1000)
     //土卫六
     gtr.electrolyzer('disksavior:ev_t6_3')
         .notConsumable('1024x gtceu:ev_fluid_drilling_rig')
@@ -800,7 +874,7 @@ ServerEvents.recipes(event => {
             'gtceu:charcoal_byproducts 9830400'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(1000)
     //巴纳德C
     gtr.electrolyzer('disksavior:ev_t8')
         .notConsumable('1024x gtceu:ev_fluid_drilling_rig')
@@ -809,7 +883,7 @@ ServerEvents.recipes(event => {
             'gtceu:unknowwater 19660800'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(1000)
     //————————————————————————————————————————————————————————————————————————————————zpm
     //主世界
     gtr.electrolyzer('disksavior:zpm_t0')
@@ -824,7 +898,7 @@ ServerEvents.recipes(event => {
             'gtceu:oil 1258291200'
         )
         .EUt(GTValues.VA[GTValues.UV])
-        .duration(200)
+        .duration(1000)
     //月球
     gtr.electrolyzer('disksavior:zpm_t1')
         .notConsumable('1024x gtceu:zpm_fluid_drilling_rig')
@@ -834,7 +908,7 @@ ServerEvents.recipes(event => {
             'gtceu:helium 1258291200'
         )
         .EUt(GTValues.VA[GTValues.UV])
-        .duration(200)
+        .duration(1000)
     //火星
     gtr.electrolyzer('disksavior:zpm_t2')
         .notConsumable('1024x gtceu:zpm_fluid_drilling_rig')
@@ -843,7 +917,7 @@ ServerEvents.recipes(event => {
             'gtceu:radon 1258291200'
         )
         .EUt(GTValues.VA[GTValues.UV])
-        .duration(200)
+        .duration(1000)
     //金星
     gtr.electrolyzer('disksavior:zpm_t3_1')
         .notConsumable('1024x gtceu:zpm_fluid_drilling_rig')
@@ -852,7 +926,7 @@ ServerEvents.recipes(event => {
             'gtceu:sulfuric_acid 1258291200'
         )
         .EUt(GTValues.VA[GTValues.UV])
-        .duration(200)
+        .duration(1000)
     //水星
     gtr.electrolyzer('disksavior:zpm_t3_2')
         .notConsumable('1024x gtceu:zpm_fluid_drilling_rig')
@@ -861,7 +935,7 @@ ServerEvents.recipes(event => {
             'gtceu:deuterium 943718400'
         )
         .EUt(GTValues.VA[GTValues.UV])
-        .duration(200)
+        .duration(1000)
     //下界
     gtr.electrolyzer('disksavior:zpm_t3_3')
         .notConsumable('1024x gtceu:zpm_fluid_drilling_rig')
@@ -871,7 +945,7 @@ ServerEvents.recipes(event => {
             'gtceu:natural_gas 2202009600'
         )
         .EUt(GTValues.VA[GTValues.UV])
-        .duration(200)
+        .duration(1000)
     //谷神星
     gtr.electrolyzer('disksavior:zpm_t4')
         .notConsumable('1024x gtceu:zpm_fluid_drilling_rig')
@@ -883,7 +957,7 @@ ServerEvents.recipes(event => {
             'gtceu:krypton 1258291200'
         )
         .EUt(GTValues.VA[GTValues.UV])
-        .duration(200)
+        .duration(1000)
     //木卫一
     gtr.electrolyzer('disksavior:zpm_t5_1')
         .notConsumable('1024x gtceu:zpm_fluid_drilling_rig')
@@ -892,7 +966,7 @@ ServerEvents.recipes(event => {
             'gtceu:coal_gas 1258291200'
         )
         .EUt(GTValues.VA[GTValues.UV])
-        .duration(200)
+        .duration(1000)
     //木卫三
     gtr.electrolyzer('disksavior:zpm_t5_2')
         .notConsumable('1024x gtceu:zpm_fluid_drilling_rig')
@@ -901,7 +975,7 @@ ServerEvents.recipes(event => {
             'gtceu:hydrochloric_acid 1258291200'
         )
         .EUt(GTValues.VA[GTValues.UV])
-        .duration(200)
+        .duration(1000)
     //冥王星
     gtr.electrolyzer('disksavior:zpm_t6_1')
         .notConsumable('1024x gtceu:zpm_fluid_drilling_rig')
@@ -910,7 +984,7 @@ ServerEvents.recipes(event => {
             'gtceu:nitric_acid 1258291200'
         )
         .EUt(GTValues.VA[GTValues.UV])
-        .duration(200)
+        .duration(1000)
     //土卫二
     gtr.electrolyzer('disksavior:zpm_t6_2')
         .notConsumable('1024x gtceu:zpm_fluid_drilling_rig')
@@ -920,7 +994,7 @@ ServerEvents.recipes(event => {
             'gtceu:fluorine 629145600'
         )
         .EUt(GTValues.VA[GTValues.UV])
-        .duration(200)
+        .duration(1000)
     //土卫六
     gtr.electrolyzer('disksavior:zpm_t6_3')
         .notConsumable('1024x gtceu:zpm_fluid_drilling_rig')
@@ -931,7 +1005,7 @@ ServerEvents.recipes(event => {
             'gtceu:charcoal_byproducts 629145600'
         )
         .EUt(GTValues.VA[GTValues.UV])
-        .duration(200)
+        .duration(1000)
     //巴纳德C
     gtr.electrolyzer('disksavior:zpm_t8')
         .notConsumable('1024x gtceu:zpm_fluid_drilling_rig')
@@ -940,12 +1014,12 @@ ServerEvents.recipes(event => {
             'gtceu:unknowwater 1258291200'
         )
         .EUt(GTValues.VA[GTValues.UV])
-        .duration(200)
+        .duration(1000)
     //鸿蒙之眼集大成配方
     //批处理16384倍
     //实际数值要-1，因为2147483648x会爆
     //集成了来自群友@aach.aic的鸿蒙之眼+
-    gtr.cosmos_simulation('disksavior:cosmos_simulation_spuer_pro_max_plus_glodversion_16384')
+    gtr.cosmos_simulation('disksavior:cosmos_simulation_spuer_pro_max_plus_glodversion')
         .itemInputs('disksavior:quantum_chromodynamic_charge_super')
         .itemOutputs(
             '2147483647x gtceu:carbon_dust',
@@ -1122,11 +1196,195 @@ ServerEvents.recipes(event => {
         )
         .duration(19660800)
         .inputFluids('gtceu:cosmic_element 16777216000')
-    //鸿蒙之眼集大成配方转移到化反
-    //批处理16384倍
+    //化反鸿蒙
+    //集成了来自群友@aach.aic的鸿蒙之眼+
+    gtr.chemical_reactor('disksavior:cosmos_simulation_1')
+        .itemInputs('kubejs:quantum_chromodynamic_charge')
+        .inputFluids(
+            'gtceu:cosmic_element 1024000',
+            'gtceu:hydrogen 1024000000',
+            'gtceu:helium 1024000000'
+        )
+        .itemOutputs(
+            '131072x gtceu:carbon_dust',
+            '131072x gtceu:phosphorus_dust',
+            '131072x gtceu:sulfur_dust',
+            '131072x gtceu:selenium_dust',
+            '131072x gtceu:iodine_dust',
+            '131072x gtceu:boron_dust',
+            '131072x gtceu:silicon_dust',
+            '131072x gtceu:germanium_dust',
+            '131072x gtceu:arsenic_dust',
+            '131072x gtceu:antimony_dust',
+            '131072x gtceu:tellurium_dust',
+            '131072x gtceu:astatine_dust',
+            '131072x gtceu:aluminium_dust',
+            '131072x gtceu:gallium_dust',
+            '131072x gtceu:indium_dust',
+            '131072x gtceu:tin_dust',
+            '131072x gtceu:thallium_dust',
+            '131072x gtceu:lead_dust',
+            '131072x gtceu:bismuth_dust',
+            '131072x gtceu:polonium_dust',
+            '131072x gtceu:titanium_dust',
+            '131072x gtceu:vanadium_dust',
+            '131072x gtceu:chromium_dust',
+            '131072x gtceu:manganese_dust',
+            '131072x gtceu:iron_dust',
+            '131072x gtceu:cobalt_dust',
+            '131072x gtceu:nickel_dust',
+            '131072x gtceu:copper_dust',
+            '131072x gtceu:zinc_dust',
+            '131072x gtceu:zirconium_dust',
+            '131072x gtceu:niobium_dust',
+            '131072x gtceu:molybdenum_dust',
+            '131072x gtceu:technetium_dust',
+            '131072x gtceu:ruthenium_dust',
+            '131072x gtceu:rhodium_dust',
+            '131072x gtceu:palladium_dust',
+            '131072x gtceu:silver_dust',
+            '131072x gtceu:cadmium_dust',
+            '131072x gtceu:hafnium_dust',
+            '131072x gtceu:tantalum_dust',
+            '131072x gtceu:tungsten_dust',
+            '131072x gtceu:rhenium_dust',
+            '131072x gtceu:osmium_dust',
+            '131072x gtceu:iridium_dust',
+            '131072x gtceu:platinum_dust',
+            '131072x gtceu:gold_dust',
+            '131072x gtceu:beryllium_dust',
+            '131072x gtceu:magnesium_dust',
+            '131072x gtceu:calcium_dust',
+            '131072x gtceu:strontium_dust',
+            '131072x gtceu:barium_dust',
+            '131072x gtceu:radium_dust',
+            '131072x gtceu:yttrium_dust',
+            '131072x gtceu:lithium_dust',
+            '131072x gtceu:sodium_dust',
+            '131072x gtceu:potassium_dust',
+            '131072x gtceu:rubidium_dust',
+            '131072x gtceu:caesium_dust',
+            '131072x gtceu:francium_dust',
+            '131072x gtceu:scandium_dust',
+            '131072x gtceu:actinium_dust',
+            '131072x gtceu:thorium_dust',
+            '131072x gtceu:protactinium_dust',
+            '131072x gtceu:uranium_dust',
+            '131072x gtceu:neptunium_dust',
+            '131072x gtceu:plutonium_dust',
+            '131072x gtceu:americium_dust',
+            '131072x gtceu:curium_dust',
+            '131072x gtceu:berkelium_dust',
+            '131072x gtceu:californium_dust',
+            '131072x gtceu:einsteinium_dust',
+            '131072x gtceu:fermium_dust',
+            '131072x gtceu:mendelevium_dust',
+            '131072x gtceu:nobelium_dust',
+            '131072x gtceu:lawrencium_dust',
+            '131072x gtceu:lanthanum_dust',
+            '131072x gtceu:cerium_dust',
+            '131072x gtceu:praseodymium_dust',
+            '131072x gtceu:neodymium_dust',
+            '131072x gtceu:promethium_dust',
+            '131072x gtceu:samarium_dust',
+            '131072x gtceu:europium_dust',
+            '131072x gtceu:gadolinium_dust',
+            '131072x gtceu:terbium_dust',
+            '131072x gtceu:dysprosium_dust',
+            '131072x gtceu:holmium_dust',
+            '131072x gtceu:erbium_dust',
+            '131072x gtceu:thulium_dust',
+            '131072x gtceu:ytterbium_dust',
+            '131072x gtceu:lutetium_dust',
+            '131072x gtceu:rutherfordium_dust',
+            '131072x gtceu:dubnium_dust',
+            '131072x gtceu:seaborgium_dust',
+            '131072x gtceu:bohrium_dust',
+            '131072x gtceu:hassium_dust',
+            '131072x gtceu:meitnerium_dust',
+            '131072x gtceu:darmstadtium_dust',
+            '131072x gtceu:roentgenium_dust',
+            '131072x gtceu:copernicium_dust',
+            '131072x gtceu:nihonium_dust',
+            '131072x gtceu:flerovium_dust',
+            '131072x gtceu:moscovium_dust',
+            '131072x gtceu:livermorium_dust',
+            '131072x gtceu:tennessine_dust',
+            '131072x gtceu:oganesson_dust',
+            '131072x gtceu:jasper_dust',
+            '131072x gtceu:naquadah_dust',
+            '131072x gtceu:enriched_naquadah_dust',
+            '131072x gtceu:naquadria_dust',
+            '131072x gtceu:duranium_dust',
+            '131072x gtceu:tritanium_dust',
+            '131072x gtceu:mithril_dust',
+            '131072x gtceu:orichalcum_dust',
+            '131072x gtceu:enderium_dust',
+            '131072x gtceu:adamantine_dust',
+            '131072x gtceu:vibranium_dust',
+            '131072x gtceu:infuscolium_dust',
+            '131072x gtceu:taranium_dust',
+            '131072x gtceu:draconium_dust',
+            '131072x gtceu:starmetal_dust',
+            //下面的是来自群友@aach.aic 的鸿蒙之眼+，此处已集成
+            '16384x gtceu:white_dwarf_mtter_dust',
+            '16384x gtceu:black_dwarf_mtter_dust',
+            '131072x ae2:sky_dust',
+            '131072x gtceu:trinium_dust',
+            '131072x gtceu:plutonium_241_dust',
+            '131072x gtceu:titanium_50_dust',
+            '131072x gtceu:copper76_dust',
+            '131072x gtceu:uranium_235_dust',
+            '131072x gtceu:perditio_crystal_dust',
+            '131072x gtceu:earth_crystal_dust',
+            '131072x gtceu:ignis_crystal_dust',
+            '131072x gtceu:tartarite_dust',
+            '131072x gtceu:uruium_dust',
+            '131072x gtceu:force_dust',
+            '131072x gtceu:alien_algae_dust',
+            '131072x gtceu:bloodstone_dust',
+            '131072x minecraft:netherite_scrap',
+            '131072x gtceu:purified_tengam_dust',
+            '131072x gtceu:quantanium_dust',
+            '131072x gtceu:bedrock_dust',
+            '131072x gtceu:damascus_steel_dust',
+            '131072x avaritia:neutron_pile',
+            '131072x gtceu:certus_quartz_dust',
+            '131072x ae2:fluix_dust'
+        )
+        .outputFluids(
+            'gtceu:spacetime 256',
+            'gtceu:raw_star_matter_plasma 1310720',
+            'gtceu:quark_gluon_plasma 1310720',
+            'gtceu:heavy_quark_degenerate_matter_plasma 1310720',
+            'gtceu:neutronium 13107200',
+            'gtceu:heavy_lepton_mixture 13107200',
+            'gtceu:hydrogen 131072000',
+            'gtceu:nitrogen 131072000',
+            'gtceu:oxygen 131072000',
+            'gtceu:fluorine 131072000',
+            'gtceu:chlorine 131072000',
+            'gtceu:bromine 131072000',
+            'gtceu:helium 131072000',
+            'gtceu:neon 131072000',
+            'gtceu:argon 131072000',
+            'gtceu:krypton 131072000',
+            'gtceu:xenon 131072000',
+            'gtceu:radon 131072000',
+            'gtceu:mercury 131072000',
+            'gtceu:deuterium 131072000',
+            'gtceu:tritium 131072000',
+            'gtceu:helium_3 131072000',
+            'gtceu:unknowwater 131072000',
+            'gtceu:uu_matter 131072000'
+        )
+        .EUt(5277655810867200)
+        .duration(1200)
+    //化反鸿蒙批处理16384倍
     //实际数值要-1，因为2147483648x会爆
     //集成了来自群友@aach.aic的鸿蒙之眼+
     //数值十分爆炸
+    //相比普通版不加耗电和耗时，因为鸿蒙之眼的耗电和耗时是锁死的，所以这个其实还挺还原
     gtr.chemical_reactor('disksavior:cosmos_simulation_spuer_pro_max_plus_glodversion_16384')
         .itemInputs('disksavior:quantum_chromodynamic_charge_super')
         .inputFluids(
