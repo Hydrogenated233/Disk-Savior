@@ -1,5 +1,6 @@
+/*
 // 优先级设高，确保变量优先加载
-priority: 1000
+priority: 999
 
 // 生成仅包含单一类型(Item或Fluid)的元件包
 const packed_infinity_cell = (cellname, type, list) => {
@@ -83,15 +84,6 @@ const packed_infinity_cell_if = (cellname, list1, list2) => {
     return Item.of('ae2:portable_item_cell_16k', finalNBT)
 }
 
-// ==========================================
-// 3. JEI 注册 Subtypes (核心修复)
-// ==========================================
-// 这一步告诉 JEI：不要把所有 AE 硬盘当成同一个东西！
-JEIEvents.subtypes(event => {
-    // 注册便携元件的 NBT 判定，确保 JEI 能识别内部数据的区别
-    event.useNBT('ae2:portable_item_cell_16k')
-    event.useNBT('expatternprovider:infinity_cell')
-})
 
 // ==========================================
 // 4. JEI 添加物品
@@ -104,3 +96,4 @@ JEIEvents.addItems(event => {
     //染料元件包
     event.add(packed_infinity_cell('染料元件包', 'f', ['gtceu:black_dye', 'gtceu:blue_dye', 'gtceu:brown_dye', 'gtceu:cyan_dye', 'gtceu:gray_dye', 'gtceu:green_dye', 'gtceu:light_blue_dye', 'gtceu:lime_dye', 'gtceu:magenta_dye', 'gtceu:orange_dye', 'gtceu:pink_dye', 'gtceu:purple_dye', 'gtceu:red_dye', 'gtceu:white_dye', 'gtceu:yellow_dye', 'gtceu:light_gray_dye']))
 })
+    */

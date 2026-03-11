@@ -2,23 +2,44 @@ StartupEvents.registry("item", event => {
     event.create("disksavior:quantum_chromodynamic_charge_super")
         .displayName("极高密度量子色动力学爆弹")
         .texture("disksavior:item/quantum_chromodynamic_charge_super")
-        .tooltip("§7纯度……")
-    event.create("disksavior:steam_is_my_last_life")
-        .displayName("蒸汽是我最后的生命……")
+        .tooltip("§7§o纯度……")
+    event.create("disksavior:steam_1")
+        .displayName("蒸汽基础")
         .texture("disksavior:item/steam_is_my_last_life")
-        .tooltip(
-            "§b置于蒸汽涡轮\n" +
-            "§b供上足量蒸汽\n" +
-            "§b随后只需注视\n" +
-            "§8================\n" +
-            "§7I am the bone of my steam\n" +
-            "§7Steel is my body, and water is my blood\n" +
-            "§7I have created over a thousand turbines\n" +
-            "§7Unknown to naquadah reactor\n" +
-            "§7Nor known to hyper reactor\n" +
-            "§7Have withstood MSPT to create many mega steam turbine\n" +
-            "§7Yet, those hands will never hold EU\n" +
-            "§7So as I pray\n" +
-            "§7Unlimited steam turbine Works"
-        )
+        .tooltip("§b置于蒸汽涡轮")
+        .tooltip("§b无需提供蒸汽")
+        .tooltip("§b提供256倍超频")
+        .tooltip("§7§oI am the bone of my steam")
+        .tooltip("§7§oSteel is my body, and water is my blood")
+    event.create("disksavior:steam_2")
+        .displayName("蒸汽少侠")
+        .texture("disksavior:item/steam_is_my_last_life")
+        .tooltip("§b置于蒸汽涡轮")
+        .tooltip("§b无需提供蒸汽")
+        .tooltip("§b提供256^2倍超频")
+        .tooltip("§7§oI have created over a thousand turbines")
+        .tooltip("§7§oUnknown to naquadah reactor")
+        .tooltip("§7§oNor known to hyper reactor")
+    event.create("disksavior:steam_3")
+        .displayName("蒸汽大侠")
+        .texture("disksavior:item/steam_is_my_last_life")
+        .tooltip("§b置于蒸汽涡轮")
+        .tooltip("§b无需提供蒸汽")
+        .tooltip("§b提供256^3倍超频")
+        .tooltip("§7§oHave withstood MSPT to create many mega steam turbine")
+    event.create("disksavior:steam_4")
+        .displayName("蒸汽巨侠")
+        .texture("disksavior:item/steam_is_my_last_life")
+        .tooltip("§b置于蒸汽涡轮")
+        .tooltip("§b无需提供蒸汽")
+        .tooltip("§b提供256^4倍超频")
+        .tooltip("§7§oYet, those hands will never hold EU")
+        .tooltip("§7§oSo as I pray")
+    event.create("disksavior:steam_is_my_last_life")
+        .displayName("此身定为蒸汽所天成")
+        .texture("disksavior:item/steam_is_my_last_life")
+        .tooltip("§c置于蒸汽涡轮")
+        .tooltip("§c无需提供蒸汽")
+        .tooltip("§c提供§k2^57§r§c倍超频")
+        .tooltip("§b§oUnlimited steam turbine Works")
 })

@@ -21,17 +21,17 @@ ServerEvents.recipes(event => {
     //无限中子素涡轮转子元件
     gtr.assembler('disksavior:neutronium_turbine_rotor_infinity_cell')
         .itemInputs(
-            '1x gtceu:tin_rotor',
-            '8x gtceu:lead_rotor',
-            '5x gtceu:iron_rotor',
-            '2x gtceu:bronze_rotor',
-            '5x gtceu:steel_rotor',
-            '4x gtceu:aluminium_rotor',
-            '18x gtceu:chromium_rotor',
-            '52x gtceu:stainless_steel_rotor',
-            '54x gtceu:titanium_rotor'
+            '185254x gtceu:tin_rotor',
+            '185254x gtceu:lead_rotor',
+            '185254x gtceu:iron_rotor',
+            '185254x gtceu:bronze_rotor',
+            '185254x gtceu:steel_rotor',
+            '185254x gtceu:aluminium_rotor',
+            '185254x gtceu:chromium_rotor',
+            '185254x gtceu:stainless_steel_rotor',
+            '185254x gtceu:titanium_rotor'
         )
-        .inputFluids('gtceu:glue 185254')
+        .inputFluids('gtceu:glue 185254000')
         .itemOutputs(Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"gtceu:turbine_rotor"}}'))
         .duration(185254)
         .EUt(1)
@@ -40,28 +40,113 @@ ServerEvents.recipes(event => {
         .circuit(2)
         .inputFluids('minecraft:water 2147483648')
         .outputFluids('gtceu:steam 343597383680')
-        .EUt(GTValues.VA[GTValues.ULV])
+        .EUt(1)
         .duration(200)
     //蒸汽发电加强
+    //每次功率提升4个电压，即256倍
+    gtr.steam_turbine('disksavior:steam_1')
+        .notConsumable('disksavior:steam_1')
+        .inputFluids('minecraft:water 163840')
+        .outputFluids('gtceu:distilled_water 1024')
+        .EUt(-2147483648 * Math.pow(256, 0))
+        .duration(10)
+    gtr.steam_turbine('disksavior:steam_2')
+        .notConsumable('disksavior:steam_2')
+        .inputFluids('minecraft:water 41943040')
+        .outputFluids('gtceu:distilled_water 262144')
+        .EUt(-2147483648 * Math.pow(256, 1))
+        .duration(10)
+    gtr.steam_turbine('disksavior:steam_3')
+        .notConsumable('disksavior:steam_3')
+        .inputFluids('minecraft:water 10737418240')
+        .outputFluids('gtceu:distilled_water 67108864')
+        .EUt(-2147483648 * Math.pow(256, 2))
+        .duration(10)
+    gtr.steam_turbine('disksavior:steam_4')
+        .notConsumable('disksavior:steam_4')
+        .inputFluids('minecraft:water 2748779069440')
+        .outputFluids('gtceu:distilled_water 17179869184')
+        .EUt(-2147483648 * Math.pow(256, 3))
+        .duration(10)
     gtr.steam_turbine('disksavior:steam_is_my_last_life')
         .notConsumable('disksavior:steam_is_my_last_life')
-        .inputFluids('gtceu:steam 24665456015048704')
-        .outputFluids('gtceu:distilled_water 57646075230342348')
-        .EUt(-2147483648 * 2147483648)
-        .duration(2000)
+        .inputFluids('minecraft:water 703687441776640')
+        .outputFluids('gtceu:distilled_water 4398046511104')
+        .EUt(-2147483648 * 2147483648)//不知道为什么写Math.pow(256, 4)会溢出
+        .duration(10)
     //蒸汽是我最后的生命……
-    gtr.chemical_reactor('disksavior:steam_is_my_last_life')
-        .circuit(15)
-        .inputFluids('gtceu:steam 18520504000000')
+    //蒸汽基础
+    gtr.mixer('disksavior:steam_1')
+        .itemInputs(
+            '1024x gtceu:steam_mega_turbine',
+            '4096x gtceu:double_stainless_steel_plate',
+            '1024x gtceu:stainless_steel_huge_fluid_pipe',
+            '1024x gtceu:titanium_rotor',
+            '1x minecraft:stone_sword'
+        )
+        .inputFluids('gtceu:glue 185254', 'gtceu:steam 8192')
+        .itemOutputs('disksavior:steam_1')
+        .EUt(GTValues.VA[GTValues.IV])
+        .duration(2000)
+    //蒸汽少侠
+    gtr.mixer('disksavior:steam_2')
+        .itemInputs(
+            '1024x gtceu:supercritical_steam_turbine',
+            '4096x gtceu:double_tungsten_carbide_plate',
+            '1024x gtceu:tungsten_carbide_huge_fluid_pipe',
+            '1024x gtceu:tungsten_steel_rotor',
+            '1x minecraft:shears'
+        )
+        .inputFluids('gtceu:glue 1852540', 'gtceu:steam 2097152')
+        .itemOutputs('disksavior:steam_2')
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .duration(2000)
+    //蒸汽大侠
+    gtr.mixer('disksavior:steam_3')
+        .itemInputs(
+            '1024x gtceu:large_naquadah_reactor',
+            '4096x gtceu:double_duranium_plate',
+            '1024x gtceu:duranium_huge_fluid_pipe',
+            '1024x gtceu:neutronium_rotor',
+            '1x gtceu:red_alloy_foil'
+        )
+        .inputFluids('gtceu:glue 18525400', 'gtceu:steam 536870912')
+        .itemOutputs('disksavior:steam_3')
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(2000)
+    //蒸汽巨侠
+    gtr.mixer('disksavior:steam_4')
+        .itemInputs(
+            '64x gtceu:advanced_hyper_reactor',
+            '64x gtceu:dyson_sphere',
+            '4096x gtceu:double_seaborgium_plate',
+            '1024x gtceu:enderium_huge_fluid_pipe',
+            '1024x gtceu:quantanium_rotor',
+            '1x minecraft:snow_block'
+        )
+        .inputFluids('gtceu:glue 185254000', 'gtceu:steam 137438953472')
+        .itemOutputs('disksavior:steam_4')
+        .EUt(GTValues.VA[GTValues.UXV])
+        .duration(2000)
+    //此身定为蒸汽所天成
+    gtr.mixer('disksavior:steam_is_my_last_life')
+        .itemInputs(
+            '1024x gtceu:annihilate_generator',
+            '4096x gtceu:double_chaos_plate',
+            '1024x gtceu:transcendentmetal_huge_fluid_pipe',
+            '1024x gtceu:draconium_rotor',
+            '1x minecraft:dirt'
+        )
+        .inputFluids('gtceu:glue 1852540000', 'gtceu:steam 35184372088832')
         .itemOutputs('disksavior:steam_is_my_last_life')
-        .EUt(1)
-        .duration(370410080)
+        .EUt(GTValues.VA[GTValues.MAX])
+        .duration(2000)
     //极高密度量子色动力学爆弹
     gtr.compressor('disksavior:quantum_chromodynamic_charge_super')
         .itemInputs('16384x kubejs:quantum_chromodynamic_charge')
         .itemOutputs('disksavior:quantum_chromodynamic_charge_super')
         .EUt(GTValues.VA[GTValues.OpV])
-        .duration(185254)
+        .duration(3705080)
     //原始虚空矿机用水
     gtr.primitive_void_ore('disksavior:water')
         .inputFluids('minecraft:water 1')
@@ -102,6 +187,23 @@ ServerEvents.recipes(event => {
         .outputFluids('gtceu:distilled_water 1000')
         .EUt(GTValues.VA[GTValues.ULV])
         .duration(1)
+    //无线电网输出终端下调IV
+    gtr.assembler('disksavior:wireless_energy_network_output_terminal')
+        .itemInputs(
+            '185254x gtmthings:iv_262144a_wireless_laser_source_hatch',
+            '1024x gtceu:hssg_coil_block',
+            '16384x gtceu:power_substation',
+            '4096x gtceu:high_power_casing',
+            '4096x gtceu:samarium_iron_arsenic_oxide_hex_wire',
+            '4096x gtceu:indium_tin_barium_titanium_cuprate_hex_wire',
+            '4096x gtceu:uranium_rhodium_dinaquadide_hex_wire',
+            '185254x gtceu:normal_laser_pipe',
+            '1x minecraft:dirt'
+        )
+        .inputFluids('gtceu:glue 185254000')
+        .itemOutputs('gtladditions:wireless_energy_network_output_terminal')
+        .EUt(1)
+        .duration(3705080)
     //创造计算机下调到IV
     gtr.assembler('disksavior:creative_computation_provider')
         .itemInputs(
@@ -141,36 +243,68 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:law_cleaning_gravity_configuration_maintenance_hatch')
         .EUt(GTValues.VA[GTValues.ULV])
         .duration(2000)
-    //木化集大成
-    gtr.wood_distillation("disksavior:wood_distillation_super")
-        .itemInputs("80x #minecraft:logs")
-        .inputFluids("minecraft:water 16000")
+    //水蒸馏出16种净化水
+    gtr.wood_distillation('disksavior:water_distillation_super')
+        .circuit(1)
+        .inputFluids('minecraft:water 185254')
         .outputFluids(
-            "gtceu:ammonia 2400",
-            "gtceu:carbon_dioxide 2000",
-            "gtceu:ethylbenzene 2000",
-            "gtceu:naphthalene 1640",
-            "gtceu:creosote 1120",
-            "gtceu:phenol 485",
-            "gtceu:hydrogen_sulfide 300",
-            "minecraft:water 800",
-            "gtceu:carbon 490",
-            "gtceu:methanol 480",
-            "gtceu:benzene 350",
-            "gtceu:carbon_monoxide 340",
-            "gtceu:dimethylbenzene 240",
-            "gtceu:acetic_acid 160",
-            "gtceu:methane 130",
-            "gtceu:acetone 80",
-            "gtceu:toluene 75",
-            "gtceu:ethylene 20",
-            "gtceu:hydrogen 20",
-            "gtceu:methyl_acetate 16",
-            "gtceu:ethanol 16"
+            'gtceu:grade_16_purified_water 16000',
+            'gtceu:grade_15_purified_water 32000',
+            'gtceu:grade_14_purified_water 48000',
+            'gtceu:grade_13_purified_water 64000',
+            'gtceu:grade_12_purified_water 80000',
+            'gtceu:grade_11_purified_water 96000',
+            'gtceu:grade_10_purified_water 112000',
+            'gtceu:grade_9_purified_water 128000',
+            'gtceu:grade_8_purified_water 144000',
+            'gtceu:grade_7_purified_water 160000',
+            'gtceu:grade_6_purified_water 176000',
+            'gtceu:grade_5_purified_water 192000',
+            'gtceu:grade_4_purified_water 208000',
+            'gtceu:grade_3_purified_water 224000',
+            'gtceu:grade_2_purified_water 240000',
+            'gtceu:grade_1_purified_water 256000'
+        )
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(200)
+    //霜原碎片去概率
+    gtr.incubator("disksavior:glacio_spirit")
+        .notConsumable("kubejs:glacio_spirit")
+        .itemInputs("16x gtceu:celestine_dust", "kubejs:essence")
+        .inputFluids("ad_astra:cryo_fuel 100", "gtceu:ice 900")
+        .itemOutputs("64x kubejs:glacio_spirit")
+        .EUt(30720)
+        .duration(2000)
+    //木化集大成
+    gtr.wood_distillation('disksavior:wood_distillation_super')
+        .itemInputs('80x #minecraft:logs')
+        .inputFluids('minecraft:water 16000')
+        .outputFluids(
+            'gtceu:ammonia 2400',
+            'gtceu:carbon_dioxide 2000',
+            'gtceu:ethylbenzene 2000',
+            'gtceu:naphthalene 1640',
+            'gtceu:creosote 1120',
+            'gtceu:phenol 485',
+            'gtceu:hydrogen_sulfide 300',
+            'minecraft:water 800',
+            'gtceu:carbon 490',
+            'gtceu:methanol 480',
+            'gtceu:benzene 350',
+            'gtceu:carbon_monoxide 340',
+            'gtceu:dimethylbenzene 240',
+            'gtceu:acetic_acid 160',
+            'gtceu:methane 130',
+            'gtceu:acetone 80',
+            'gtceu:toluene 75',
+            'gtceu:ethylene 20',
+            'gtceu:hydrogen 20',
+            'gtceu:methyl_acetate 16',
+            'gtceu:ethanol 16'
         )
         .itemOutputs(
-            "8x gtceu:coke_dust",
-            "8x gtceu:dark_ash_dust"
+            '8x gtceu:coke_dust',
+            '8x gtceu:dark_ash_dust'
         )
         .duration(400)
         .EUt(120)
@@ -1030,13 +1164,59 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UV])
         .duration(1000)
     //巴纳德C
-    gtr.electrolyzer('disksavior:zpm_t8')
+    gtr.electrolyzer('disksavior:UEV')
         .notConsumable('1024x gtceu:zpm_fluid_drilling_rig')
         .notConsumable('kubejs:barnarda_log')
         .outputFluids(
             'gtceu:unknowwater 1258291200'
         )
         .EUt(GTValues.VA[GTValues.UV])
+        .duration(1000)
+    //进阶无尽钻机钻全部维度流体
+    gtr.large_chemical_reactor('disksavior:UEV_all')
+        .notConsumable('gtceu:advanced_infinite_driller')
+        .outputFluids(
+            //主世界
+            'gtceu:salt_water 40265318400',
+            'gtceu:natural_gas 15099494400',
+            'gtceu:oil_medium 20132659200',
+            'gtceu:oil_light 25165824000',
+            'gtceu:oil_heavy 15099494400',
+            'gtceu:oil 20132659200',
+            //月球
+            'gtceu:helium_3 10066329600',
+            'gtceu:helium 20132659200',
+            //火星
+            'gtceu:radon 20132659200',
+            //金星
+            'gtceu:sulfuric_acid 20132659200',
+            //水星
+            'gtceu:deuterium 15099494400',
+            //下界
+            'minecraft:lava 65431142400',
+            'gtceu:natural_gas 35232153600',
+            //谷神星
+            'gtceu:neon 20132659200',
+            'gtceu:radon 15099494400',
+            'gtceu:xenon 20132659200',
+            'gtceu:krypton 20132659200',
+            //木卫一
+            'gtceu:coal_gas 20132659200',
+            //木卫三
+            'gtceu:hydrochloric_acid 20132659200',
+            //冥王星
+            'gtceu:nitric_acid 20132659200',
+            //土卫二
+            'gtceu:chlorine 20132659200',
+            'gtceu:fluorine 10066329600',
+            //土卫六
+            'gtceu:methane 20132659200',
+            'gtceu:benzene 15099494400',
+            'gtceu:charcoal_byproducts 10066329600',
+            //巴纳德C
+            'gtceu:unknowwater 20132659200'
+        )
+        .EUt(GTValues.VA[GTValues.UEV])
         .duration(1000)
     //鸿蒙之眼集大成配方
     //批处理16384倍

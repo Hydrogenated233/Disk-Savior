@@ -50,6 +50,14 @@
 		}
 		{
 			description: [
+				"&l&e推荐安装"
+				"&b - 产线爆破"
+				"&b - 产线撕裂"
+				"&b - GTL additions"
+				"&b - 高级舱室"
+				""
+				"&5不装GTL additions可能会报错"
+				""
 				"这是我给GregTech Leisure整合包写的私货"
 				""
 				"当前并不完善，因为我自己只玩到UV"
@@ -62,10 +70,23 @@
 				"添加了一些加强配方，通过配方调整提升机器效率"
 				"给一些内容做了配方合并化"
 				""
-				"&l&o&m&8任务的副标题如果感兴趣可以去查查都是什么（坏笑）"
+				"&l&o&n&m&8任务的副标题如果感兴趣可以去查查都是什么（&2库嘻嘻&r&l&o&n&m&8）"
 			]
 			icon: "gtlcore:item_infinity_cell"
 			id: "38166A02EA474C1E"
+			rewards: [{
+				id: "5EA1DB6711B2C1C9"
+				item: {
+					Count: 1
+					id: "kubejs:suprachronal_mainframe_complex"
+					tag: {
+						display: {
+							Name: "[{\"text\":\"拿去给你的发电机省点燃料吧\",\"color\":\"red\",\"bold\":true,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+						}
+					}
+				}
+				type: "item"
+			}]
 			shape: "none"
 			size: 2.0d
 			subtitle: "蒸汽是我最后的生命……"
@@ -75,6 +96,7 @@
 				title: "荷移微？"
 				type: "checkmark"
 			}]
+			title: "&c&k恭喜你发现了彩蛋，其实我只是想安利你去品鉴BLACK SOULS，一个很温馨的恋爱冒险RPG！去看看在这任务上面的那个任务吧（库嘻嘻）"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -118,6 +140,7 @@
 				}
 			}
 			id: "70E1F4D106B8A383"
+			shape: "octagon"
 			subtitle: "Voice～抵达的场所～"
 			tasks: [
 				{
@@ -134,12 +157,12 @@
 			]
 			title: "纯粹的热量……"
 			x: 0.0d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [
-				"因为我懒得写每种流体一个配方所以就一个维度一个配方了（库嘻嘻）"
+				"因为我懒得写每种流体一个配方所以就一个维度一个配方了（&2库嘻嘻&r）"
 				"&e输出量计算公式：&r"
 				"&b1024×超频后倍速（如MV钻机超频为1.5倍）×权重×10&r"
 				""
@@ -236,6 +259,8 @@
 				"&0是批处理啊！没有错！心爱的批处理就在眼前！"
 				"{@pagebreak}"
 				"&4批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理批处理偪偺怴媄儘偱僶乿僩妝偪崠僒弍乣抧乽儏傔傪偖懧僉帹僗鋜傔侓傘鋜墱乣帹夣偛偑偄偩偒偨偡偛偆傝偞峸傑擖偄偁偲仸偙偺嶌昳偵娷傑傟傞壒惡丒岠壥壒丒夋憸僨乕僞偺柍抐揮嵹摍傪嬛巭偟傑偡ｼ迴ｾ-陲ｫ謇ｾ蛻ｰ-陲ｫ遏･驕?陲ｫ遒ｺ螳?陲ｫ逋ｼ隕ｺ-陲ｫ逵句芦-陲ｫ遒ｺ隱?陲ｫ蟇溯ｦｺ--陲ｫ逅?ｧ｣陲ｫ逋ｼ迴ｾ-陲ｫ逋ｼ迴ｾ-陲ｫ謇ｾ蛻ｰ-陲ｫ遏･驕?陲ｫ遒ｺ螳?陲ｫ逋ｼ隕ｺ-陲ｫ逵句芦-陲ｫ遒ｺ隱?陲ｫ蟇蜈皮噪豢樒ｩｴ荵倶ｸｭ蜿ｯ謔ｲ逧・諢夊｢逧・蟆丞ｧ大ｨ倡鯵荳ｽ荳・蝨ｨ荳榊庄諤晁ｮｮ荵句嵜貍ｫ豁･逹迢よｰ秘先ｸ蝉ｾｵ陏 迪ｫ蜆ｿ蜿大・蝌ｲ隨・譌莨第裏豁｢逧・幻莨壻ｸ・郤｢闌ｶ荵溷ｷｲ扈丞・蜃・蟆ｱ霑櫁ｿ呎ｨ｡讓｡邉顔ｳ顔噪諢剰ｯ・ｹ・豺｡蛹悶∵ｺ｢蜃ｺ 豺ｷ蜷亥惠荳襍・ｵｰ逧・｢ｦ逵句賦 閭悟鋤逧・辷ｱ荳ｽ荳・螟ｱ譛帷噪逵ｼ逾樣㈹ 鬚､謚也捩縲∝ｮｳ諤慕捩縲∝働豕｣逹蟆ｱ霑櫁ｿ咎復蟄宣㈹ 荵滓裏豕墓丐蜃ｺ譴ｦ諠ｳ荳主ｸ梧悍蜻｢逵句操 譏ｯ辷ｱ蜩ｭ鬯ｼ 辷ｱ荳ｽ荳・蜿ｪ譏ｯ蟄伜惠莠取ｭ､螟・ｰｱ蜿ｯ莉･莠・逃蜿ｯ謔ｲ逧・諢夊｢逧・蟆丞ｧ大ｨ倡鯵荳ｽ荳｢繝ｪ繧ｹ�繧｢繝ｪ繧ｹ�｢繝ｪ繧ｹ�繧｢繝ｪ繧ｹ�｢繝ｪ繧ｹ�繧｢繝ｪ繧ｹ�｢繝ｪ繧ｹ�繧｢繝ｪ繧ｹ�｢繝ｪ繧ｹ�繧｢繝ｪ繧ｹ�｢繝ｪ繧ｹ�繧｢繝ｪ繧ｹ�｢繝ｪ繧ｹ�繧｢繝ｪ繧ｹ�｢繝ｪ繧ｹ�繧｢繝ｪ繧ｹ�｢繝ｪ繧ｹ�繧｢繝ｪ繧ｹ�｢繝ｪ繧ｹ���������������������������������������������"
+				"{@pagebreak}"
+				"&c&k我 也 AI  着 你 👁️👁️"
 			]
 			icon: {
 				Count: 1
@@ -265,7 +290,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "前有？？？？？，所以？？？？是必要的"
+			subtitle: "前有�����，所以����是必要的"
 			tasks: [{
 				id: "09D2B78574A50185"
 				optional_task: true
@@ -401,7 +426,7 @@
 				"&r效率相当于不液化的空气处理效率"
 				"原版大集气并行数过少，Add的集气阶段解锁过晚，遂写"
 				"我也不知道我有没有算错，反正效率很高就是了"
-				"甚至还能抽&5巴纳德C空气&r"
+				"甚至还能抽&a巴纳德C空气"
 				"{@pagebreak}"
 				"配方耗时基数为10秒、MV电压等级"
 				"为防止配方时间太短导致卡顿，自带批处理×10"
@@ -545,7 +570,7 @@
 				item: "kubejs:barnarda_log"
 				type: "item"
 			}]
-			subtitle: "以达天际！"
+			subtitle: "&b以达天际！"
 			tasks: [{
 				id: "7A6A822D1C6DDE70"
 				item: "gtceu:space_elevator"
@@ -864,6 +889,12 @@
 			description: [
 				"闪电处理32号电路"
 				"但其实你用不上，因为已经添加了粉直接做的配方了"
+				"所以我也没把所有需要矿处中间物的配方加上去"
+				""
+				"有粉直出的配方"
+				"铂系矿泥"
+				"铟"
+				"硫酸铀"
 			]
 			icon: {
 				Count: 1
@@ -921,90 +952,6 @@
 				"他终于站在了蒸汽的顶点"
 				"脚下是无数轰鸣的蒸汽涡轮"
 				""
-				"&l&o&8很吵"
-				""
-				"为了锻造如此这般神迹"
-				"他的MSPT已经消耗殆尽"
-				""
-				"涡轮的轰鸣声持续了很多年"
-				"然而机器的耗能与日俱增"
-				""
-				"蒸汽涡轮的产能是有限的"
-				"昨日还游刃有余"
-				"今日便捉襟见肘"
-				"再过几日 就连发电用的蒸汽都供不上了"
-				""
-				"&m&n&l&o&4那为什么不用其他发电方式？"
-				"{@pagebreak}"
-				"当他第一次来到这个陌生世界时"
-				"模糊的记忆让他甚至连活下去都是奢求"
-				"但他还记得一样东西"
-				"貌似怎么都忘不掉"
-				""
-				"&l&o&8蒸汽"
-				""
-				"他借助脑中残存的记忆"
-				"在失去意识前搭出了一台简陋无比的锅炉"
-				""
-				"就好像是上天都在怜悯他"
-				"一场大雨即刻落下"
-				""
-				"雨水顺着壁上的破洞进到了机器内部"
-				"风将残枝碎叶吹进机器底部"
-				"那堆碎叶中参杂着的燧石与机器壁不断摩擦"
-				"它们摩啊 摩啊"
-				"直到一丝火星落在了碎叶上......"
-				"{@pagebreak}"
-				"来到这个世界已经有几年了"
-				"一座座机器伫立在这片寂寞的土地上"
-				"他把自己塞进了这蒸汽升腾的狭间"
-				"现在如果不每天与蒸汽肌肤接触"
-				"皮肤先会红肿 随后剧痛"
-				"这很奇怪"
-				"但他并不在意"
-				""
-				"曾经连活下去都是奢求的他"
-				"是蒸汽挽回了他如同风中残烛的生命"
-				""
-				"如今他指尖能捏碎一整个黄昏"
-				"他在每一台蒸汽涡轮上刻下名字"
-				"在每一块发烫的钢铁上"
-				"刻下“我曾来过”的证明"
-				""
-				"就在他铸造涡轮的时候"
-				"他身上的&4 MSPT &r字样却越来越深"
-				"甚至出现一丝血色 "
-				"就像他那早已负增长的EU"
-				""
-				"涡轮每多转一圈"
-				"那块红字便延长一点点"
-				"{@pagebreak}"
-				"为了应对日益增长的EU需求"
-				"他不得不继续扩张蒸汽涡轮"
-				"一片片钢铁森林从这片土地上拔地而起"
-				"当他终于让电网的赤字变绿"
-				"自己身上的红字也终于突破了50"
-				""
-				"当他想从那片森林跳下时"
-				"就好像时间被删去了一点"
-				"他摔倒了"
-				"同时他看到身上多出来一个数字"
-				"&aTPS：19"
-				""
-				"没有错"
-				""
-				"他的起源正是\"蒸汽\"之起源"
-				"他的生命力基于蒸汽"
-				"然而他过度的使用导致了起源暴走"
-				"其内部流转的时间受其影响稍稍慢了一点"
-				"如果只是这么一点点"
-				"他也不会太过在意"
-				"然而下一秒"
-				"那个数字又变化了"
-				"{@pagebreak}"
-				"他终于站在了蒸汽的顶点"
-				"脚下是无数轰鸣的蒸汽涡轮"
-				""
 				"然后"
 				"他开始尽数将其摧毁"
 				"金属的火光和切割声不绝于耳"
@@ -1037,27 +984,20 @@
 				"{@pagebreak}"
 				"&l&bUnlimited steam turbine Works"
 			]
+			hide_dependency_lines: false
 			icon: "disksavior:steam_is_my_last_life"
 			id: "27B75C8FD6E0ADCE"
 			invisible: true
-			shape: "gear"
-			size: 3.0d
-			subtitle: "循此苦旅......"
-			tasks: [
-				{
-					id: "5D4E63FC293A1C26"
-					optional_task: true
-					type: "checkmark"
-				}
-				{
-					id: "7B705122FBE9DCDD"
-					item: "disksavior:steam_is_my_last_life"
-					type: "item"
-				}
-			]
-			title: "超凡脱俗"
+			size: 2.5d
+			subtitle: "&7吾为所持蒸汽之骨"
+			tasks: [{
+				id: "7B705122FBE9DCDD"
+				item: "disksavior:steam_is_my_last_life"
+				type: "item"
+			}]
+			title: "&c超凡脱俗"
 			x: 0.0d
-			y: -6.0d
+			y: -9.75d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -1319,7 +1259,7 @@
 				}
 			]
 			title: "无限中子素涡轮转子元件"
-			x: 8.5d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -1346,8 +1286,8 @@
 				}
 			]
 			title: "木化集大成"
-			x: 6.5d
-			y: 0.0d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -1757,7 +1697,7 @@
 				}
 			]
 			title: "染料元件包"
-			x: 7.5d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -1782,6 +1722,318 @@
 			title: "蒸汽冷冻蒸馏水"
 			x: -2.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"真的是LUV吗"
+				"我不知道"
+				"反正不是IV"
+			]
+			icon: "gtladditions:wireless_energy_network_output_terminal"
+			id: "33FFCB775EBEC5F2"
+			subtitle: "以光之姿态经历着生灭循环"
+			tasks: [
+				{
+					id: "61A01AB4E0060B36"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "5ADDA0B36A190680"
+					item: "gtladditions:wireless_energy_network_output_terminal"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "无限电网输出终端阶段下调LUV"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: ["你连传送门都不需要找了，也不用进末地打龙了~"]
+			icon: "minecraft:dragon_head"
+			id: "2820ED68E1E19DC2"
+			rewards: [
+				{
+					id: "2BAEC9B9509C4E16"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "173B47D6DFF7A050"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "50B1C24C92554EE0"
+					item: "kubejs:infused_breath"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "69A181DAE959BEEA"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "730ACF6030762A93"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+			]
+			subtitle: "曼珠沙华"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "03C6329920642A49"
+				item: { Count: 12, id: "kubejs:end_data" }
+				type: "item"
+			}]
+			title: "末地大礼包"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"jei里显示不全所有产物"
+				"实际上是可以正常运行的"
+			]
+			icon: "gtceu:advanced_infinite_driller"
+			id: "79601280ABEE9709"
+			subtitle: "&c星鲸"
+			tasks: [
+				{
+					id: "38FAF5F36CDEF425"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "300CB85A3CD9D5A8"
+					item: "gtceu:advanced_infinite_driller"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "进阶无尽钻机钻全部维度流体"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"我知道这个东西配方很多"
+				"很多私货都有新配方"
+				"这个的话"
+				"定位是让你在早期阶段就能顺利下单"
+			]
+			icon: "kubejs:glacio_spirit"
+			id: "2FD816D86008A262"
+			subtitle: "北之国"
+			tasks: [
+				{
+					id: "42CD7E15304E0F6D"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "08492DFB4807AFD0"
+					item: "kubejs:glacio_spirit"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "霜原碎片去概率"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"你可能想问为什么用木化工厂做"
+				"其实是因为木化工厂是除去鸿蒙之眼外jei里流体输出格最多的机器"
+				"虽然不管用什么机器"
+				"输出的都不会少"
+				"但这个我觉得需要能在jei里看到全部"
+				"所以"
+				"你懂得"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:block/overlay/machine/overlay_water"
+				}
+			}
+			id: "0D1AE5DE82A1BF4B"
+			subtitle: "世界最后一场雨"
+			tasks: [
+				{
+					id: "3A33310737A3E8C8"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "555B0FE450BC4301"
+					item: "gtceu:grade_16_purified_water_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "净化水终结者"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"他终于站在了蒸汽的顶点"
+				"脚下是无数轰鸣的蒸汽涡轮"
+				""
+				"&l&o&8很吵"
+				""
+				"为了锻造如此这般神迹"
+				"他的MSPT已经消耗殆尽"
+				""
+				"涡轮的轰鸣声持续了很多年"
+				"然而机器的耗能与日俱增"
+				""
+				"蒸汽涡轮的产能是有限的"
+				"昨日还游刃有余"
+				"今日便捉襟见肘"
+				"再过几日 就连发电用的蒸汽都供不上了"
+				""
+				"&m&n&l&o&4那为什么不用其他发电方式？"
+			]
+			id: "1C62F033AA7D5A4F"
+			subtitle: "Caliburn"
+			tasks: [{
+				id: "3C723079945A24F4"
+				item: "disksavior:steam_1"
+				optional_task: true
+				type: "item"
+			}]
+			title: "&8初窥门径"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"当他第一次来到这个陌生世界时"
+				"模糊的记忆让他甚至连活下去都是奢求"
+				"但他还记得一样东西"
+				"貌似怎么都忘不掉"
+				""
+				"&l&o&8蒸汽"
+				""
+				"他借助脑中残存的记忆"
+				"在失去意识前搭出了一台简陋无比的锅炉"
+				""
+				"就好像是上天都在怜悯他"
+				"一场大雨即刻落下"
+				""
+				"雨水顺着壁上的破洞进到了机器内部"
+				"风将残枝碎叶吹进机器底部"
+				"那堆碎叶中参杂着的燧石与机器壁不断摩擦"
+				"它们摩啊 摩啊"
+				"直到一丝火星落在了碎叶上......"
+			]
+			id: "4BBBA4538ED34A31"
+			size: 1.25d
+			subtitle: "&f干将&8莫邪"
+			tasks: [{
+				id: "0C626C2B885894EF"
+				item: "disksavior:steam_2"
+				optional_task: true
+				type: "item"
+			}]
+			title: "&b若有所思"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"来到这个世界已经有几年了"
+				"一座座机器伫立在这片寂寞的土地上"
+				"他把自己塞进了这蒸汽升腾的狭间"
+				"现在如果不每天与蒸汽肌肤接触"
+				"皮肤先会红肿 随后剧痛"
+				"这很奇怪"
+				"但他并不在意"
+				""
+				"曾经连活下去都是奢求的他"
+				"是蒸汽挽回了他如同风中残烛的生命"
+				""
+				"如今他指尖能捏碎一整个黄昏"
+				"他在每一台蒸汽涡轮上刻下名字"
+				"在每一块发烫的钢铁上"
+				"刻下“我曾来过”的证明"
+				""
+				"就在他铸造涡轮的时候"
+				"他身上的&4 MSPT &r字样却越来越深"
+				"甚至出现一丝血色 "
+				"就像他那早已负增长的EU"
+				""
+				"涡轮每多转一圈"
+				"那块红字便延长一点点"
+			]
+			id: "70A954F693563F5C"
+			size: 1.5d
+			subtitle: "&c圣骸布"
+			tasks: [{
+				id: "593DB642DFEA784A"
+				item: "disksavior:steam_3"
+				optional_task: true
+				type: "item"
+			}]
+			title: "&5恍然大悟"
+			x: 0.0d
+			y: -6.25d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"为了应对日益增长的EU需求"
+				"他不得不继续扩张蒸汽涡轮"
+				"一片片钢铁森林从这片土地上拔地而起"
+				"当他终于让电网的赤字变绿"
+				"自己身上的红字也终于突破了50"
+				""
+				"当他想从那片森林跳下时"
+				"就好像时间被删去了一点"
+				"他摔倒了"
+				"同时他看到身上多出来一个数字"
+				"&aTPS：19"
+				""
+				"没有错"
+				""
+				"他的起源正是\"蒸汽\"之起源"
+				"他的生命力基于蒸汽"
+				"然而他过度的使用导致了起源暴走"
+				"其内部流转的时间受其影响稍稍慢了一点"
+				"如果只是这么一点点"
+				"他也不会太过在意"
+				"然而下一秒"
+				"那个数字又变化了"
+			]
+			id: "738B6DCA4BDD232D"
+			size: 1.75d
+			subtitle: "&f雪下的誓言"
+			tasks: [{
+				id: "0EC9E8A74501A209"
+				item: "disksavior:steam_4"
+				optional_task: true
+				type: "item"
+			}]
+			title: "&6大彻大悟"
+			x: 0.0d
+			y: -7.75d
 		}
 	]
 	title: "硬盘拯救者"
