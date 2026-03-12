@@ -262,11 +262,7 @@
 				"{@pagebreak}"
 				"&c&k我 也 AI  着 你 👁️👁️"
 			]
-			icon: {
-				Count: 1
-				id: "gtmadvancedhatch:net_data_stick"
-				tag: { }
-			}
+			icon: "gtceu:vibranium_ring"
 			id: "42546E3C5E202BCF"
 			rewards: [
 				{
@@ -469,7 +465,7 @@
 				item: "ad_astra:moon_stone"
 				type: "item"
 			}]
-			subtitle: "神明徒留虚妄之言 连人的饥渴也不曾垂怜"
+			subtitle: "μ 未知深渊 中提琴(viola)呼唤你的名字"
 			tasks: [{
 				id: "4BDAF847523284FA"
 				item: {
@@ -486,10 +482,7 @@
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: [
-				"虽然jei里显示不下，但是实际上是可以正常工作的"
-				"你只要在输入总线里放入足量稀有金属粉和一号电路"
-			]
+			description: ["因未知原因，用编程电路无法正常工作，故改用新物品"]
 			icon: "gtceu:rare_earth_metal_dust"
 			id: "10A75CDB0C5E7F71"
 			subtitle: "我生于龙·纪元528年南国的赤烛火月"
@@ -881,8 +874,8 @@
 				}
 			]
 			title: "鸿蒙之眼加强"
-			x: 6.0d
-			y: 2.0d
+			x: 9.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -987,9 +980,8 @@
 			hide_dependency_lines: false
 			icon: "disksavior:steam_is_my_last_life"
 			id: "27B75C8FD6E0ADCE"
-			invisible: true
 			size: 2.5d
-			subtitle: "&7吾为所持蒸汽之骨"
+			subtitle: "&7吾为所持蒸汽骨"
 			tasks: [{
 				id: "7B705122FBE9DCDD"
 				item: "disksavior:steam_is_my_last_life"
@@ -1004,6 +996,23 @@
 			description: [""]
 			id: "407ECB9084927CB8"
 			invisible: true
+			rewards: [{
+				id: "705AF210F933B61C"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						amts: [L;4L]
+						ic: 4L
+						internalCurrentPower: 20000.0d
+						keys: [{
+							"#c": "ae2:i"
+							id: "gtceu:rare_earth_metal_dust"
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "217A9BEE7E35DF7E"
@@ -1022,23 +1031,1828 @@
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: [""]
+			description: ["自动生成出来的带透镜，这很邪恶"]
+			icon: "gtceu:exquisite_emerald_gem"
 			id: "5A8A7F0E764E29C8"
-			tasks: [
-				{
-					id: "620AF762CAAB6A8D"
-					optional_task: true
-					type: "checkmark"
+			rewards: [{
+				id: "28C2B6013D3B9420"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						ic: 78L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_glass_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_glass_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_salt_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_salt_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_rock_salt_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_rock_salt_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_echo_shard_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_echo_shard_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:opal_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_opal_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_cinnabar_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_cinnabar_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_coke_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_coke_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:glass_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_glass_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:red_garnet_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_red_garnet_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_magneto_resonatic_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_magneto_resonatic_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:sodalite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_sodalite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:lazurite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_lazurite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_lapis_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_lapis_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_emerald_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_emerald_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:andradite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_andradite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_opal_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_opal_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:quartzite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_quartzite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "minecraft:echo_shard"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_echo_shard_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_malachite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_malachite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_nether_quartz_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_nether_quartz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_rutile_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_rutile_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:sapphire_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_sapphire_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:magneto_resonatic_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_magneto_resonatic_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_green_sapphire_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_green_sapphire_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "minecraft:quartz"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_nether_quartz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_olivine_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_olivine_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_topaz_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_topaz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:pyrope_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_pyrope_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_red_garnet_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_red_garnet_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_andradite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_andradite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_yellow_garnet_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_yellow_garnet_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:ruby_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_ruby_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:malachite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_malachite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_lazurite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_lazurite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:cubic_zirconia_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_cubic_zirconia_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:monazite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_monazite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:green_sapphire_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_green_sapphire_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:grossular_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_grossular_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_sodalite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_sodalite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_ruby_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_ruby_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_apatite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_apatite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_uvarovite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_uvarovite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_certus_quartz_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_certus_quartz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_grossular_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_grossular_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "minecraft:coal"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_coal_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:jasper_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_jasper_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:apatite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_apatite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_quartzite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_quartzite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_monazite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_monazite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_blue_topaz_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_blue_topaz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_coal_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_coal_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:uvarovite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_uvarovite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:coke_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_coke_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_spessartine_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_spessartine_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:rutile_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_rutile_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_almandine_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_almandine_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:olivine_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_olivine_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_sapphire_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_sapphire_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_jasper_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_jasper_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:spessartine_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_spessartine_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_cubic_zirconia_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_cubic_zirconia_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "minecraft:diamond"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_diamond_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:certus_quartz_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_certus_quartz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:yellow_garnet_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_yellow_garnet_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:blue_topaz_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_blue_topaz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:cinnabar_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_cinnabar_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_diamond_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_diamond_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:rock_salt_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_rock_salt_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_realgar_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_realgar_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:topaz_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_topaz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "minecraft:amethyst_shard"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_amethyst_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_pyrope_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_pyrope_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_amethyst_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_amethyst_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:almandine_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_almandine_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "minecraft:emerald"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_emerald_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "minecraft:lapis_lazuli"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_lapis_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:salt_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_salt_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:realgar_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_realgar_gem"
+									}]
+								}
+							}
+						]
+					}
 				}
-				{
-					id: "1E23338A69584240"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 1.0d
-			y: -3.0d
+				type: "item"
+			}]
+			subtitle: "脳動説"
+			tasks: [{
+				id: "620AF762CAAB6A8D"
+				optional_task: true
+				type: "checkmark"
+			}]
+			title: "激光蚀刻宝石样板礼包"
+			x: 7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -1129,8 +2943,8 @@
 				}
 			]
 			title: "化反鸿蒙"
-			x: 7.0d
-			y: 2.5d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -1260,7 +3074,7 @@
 			]
 			title: "无限中子素涡轮转子元件"
 			x: 8.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -1697,8 +3511,8 @@
 				}
 			]
 			title: "染料元件包"
-			x: 7.0d
-			y: 0.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -1747,12 +3561,12 @@
 				}
 			]
 			title: "无限电网输出终端阶段下调LUV"
-			x: -5.0d
-			y: 0.0d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: ["你连传送门都不需要找了，也不用进末地打龙了~"]
+			description: ["连末地门都不需要找了，也不用进末地打龙了~"]
 			icon: "minecraft:dragon_head"
 			id: "2820ED68E1E19DC2"
 			rewards: [
@@ -1794,7 +3608,7 @@
 				type: "item"
 			}]
 			title: "末地大礼包"
-			x: 10.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -1820,7 +3634,7 @@
 				}
 			]
 			title: "进阶无尽钻机钻全部维度流体"
-			x: 6.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -1884,7 +3698,7 @@
 					type: "item"
 				}
 			]
-			title: "净化水终结者"
+			title: "木化出16种净化水"
 			x: -3.0d
 			y: 8.0d
 		}
@@ -2034,6 +3848,158 @@
 			title: "&6大彻大悟"
 			x: 0.0d
 			y: -7.75d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [""]
+			id: "42DBFD52653745C6"
+			tasks: [
+				{
+					id: "21ED4B85D76B3177"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "0826A398F5C6BD9A"
+					item: "minecraft:oak_log"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"jei显示不全"
+				"实际上能出除了钷以外的所有稀土金属"
+			]
+			icon: "gtceu:rare_earth_dust"
+			id: "29D5C6B3B9AB113E"
+			subtitle: "埃舍尔花期"
+			tasks: [
+				{
+					id: "3CCA5C2BC712C150"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "317E2EBEDAE18679"
+					item: "gtceu:rare_earth_dust"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "单步稀土线"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"产物太多jei显示不全"
+				""
+				"别忘了有个任务还会开局送你一套原始虚空采矿机"
+				""
+				"耗时计算是用该维度矿物种类*256"
+				"输出量也会*256"
+				"因为要拉长配方时间防卡顿"
+			]
+			icon: "gtceu:primitive_void_ore"
+			id: "6D570EFCB8156651"
+			subtitle: "神明徒留虚妄之言 连人的饥渴也不曾垂怜"
+			tasks: [
+				{
+					id: "4DE6B43E88E140C3"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "6A214AB4DA109A6D"
+					item: "gtceu:primitive_void_ore"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "原始矿机电解"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"产物太多jei显示不全"
+				""
+				"让你用两台资源采集模块就能挖所有东西"
+				""
+				"如果直接套用原版的太空电梯数值"
+				"会出现越升级效率越低的情况"
+				"因为配方强制自带有损超频"
+				"而且这机器有并行"
+				""
+				"所以怎么办呢？"
+				"{@pagebreak}"
+				"我改成无损超频了（"
+				"而且基础耗时只翻八倍"
+			]
+			icon: "gtceu:resource_collection"
+			id: "3BE60A131DBBAB68"
+			subtitle: "神明徒留冷酷相待 道路铺满训诫之音"
+			tasks: [
+				{
+					id: "3C54AF87B75D74DE"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "1118DC5636966A3F"
+					item: "gtceu:resource_collection"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "太空电梯资源采集集大成"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [""]
+			icon: "gtceu:primitive_void_ore"
+			id: "66A65723FD12ABE5"
+			rewards: [
+				{
+					count: 24
+					id: "4F0ED47E3C6593D6"
+					item: "gtceu:primitive_void_ore"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "5C5B8332DC0ACEFB"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					id: "045EC5E75BB59843"
+					item: "gtceu:me_output_bus"
+					type: "item"
+				}
+				{
+					id: "662CAEA8E43D714E"
+					item: "gtceu:reservoir_hatch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04427B85F8F6682F"
+				optional_task: true
+				type: "checkmark"
+			}]
+			title: "送你一台原始虚空采矿机"
+			x: -1.5d
+			y: 1.0d
 		}
 	]
 	title: "硬盘拯救者"

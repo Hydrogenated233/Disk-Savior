@@ -42,4 +42,7 @@ StartupEvents.registry("item", event => {
         .tooltip("§c无需提供蒸汽")
         .tooltip("§c提供§k2^57§r§c倍超频")
         .tooltip("§b§oUnlimited steam turbine Works")
+    event.create("disksavior:rare_earth_metal_dust_4x")
+        .displayName("四倍压缩稀土金属粉")
+        .texture("disksavior:item/rare_earth_metal_dust_4x")
 })
