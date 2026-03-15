@@ -12,7 +12,7 @@
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [
-				"&4我真的很喜欢胶水"
+				"&c我真的很喜欢胶水❤️"
 				""
 				"下调了部分大机器的解锁时期，让上位机器在下位阶段就能投入使用"
 				""
@@ -45,7 +45,7 @@
 				}
 			]
 			title: "搅拌机科技"
-			x: -1.5d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -59,16 +59,13 @@
 				"&5不装GTL additions可能会报错"
 				""
 				"这是我给GregTech Leisure整合包写的私货"
+				"基本不考虑平衡性"
+				"存在一些跳科技内容和数值崩坏"
 				""
-				"当前并不完善，因为我自己只玩到UV"
-				"还是一周目"
 				"最开始是因为我存档因各种维度跑图体积过大"
 				"才写的这个私货"
 				"用了此私货你几乎不用跑图了"
 				"存档大小可能到毕业都只有100MB出头"
-				""
-				"添加了一些加强配方，通过配方调整提升机器效率"
-				"给一些内容做了配方合并化"
 				""
 				"&l&o&n&m&8任务的副标题如果感兴趣可以去查查都是什么（&2库嘻嘻&r&l&o&n&m&8）"
 			]
@@ -96,7 +93,7 @@
 				title: "荷移微？"
 				type: "checkmark"
 			}]
-			title: "&c&k恭喜你发现了彩蛋，其实我只是想安利你去品鉴BLACK SOULS，一个很温馨的恋爱冒险RPG！去看看在这任务上面的那个任务吧（库嘻嘻）"
+			title: "&c&k恭喜你发现了彩蛋\\n其实我只是想安利你去品鉴BLACK SOULS\\n一个很温馨的恋爱冒险RPG！\\n去看看在这任务上面的那个任务吧（库嘻嘻）"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -131,15 +128,7 @@
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: [
-				"流体加热器二号电路加水，记得水多加点&8"
-				""
-				"另外，上面的几个任务是升级蒸汽发电的"
-				"通过总成放蒸汽涡轮里"
-				"换上足够大的动力仓"
-				"推荐GTL ADD的无线电网输出终端"
-				"然后加水"
-			]
+			description: ["流体加热器二号电路加水，记得水多加点"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -170,26 +159,32 @@
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [
-				"因为我懒得写每种流体一个配方所以就一个维度一个配方了（&2库嘻嘻&r）"
-				"&e输出量计算公式：&r"
-				"&b1024×超频后倍速（如MV钻机超频为1.5倍）×权重×10&r"
+				"让你不需要跑图找流体搭钻机了"
+				"只需要挖一块地皮"
+				"然后把他们和流体钻机一起放进电解机里"
+				"就能抽&b这个维度的所有流体&r了"
+				""
+				"为什么是所有的呢"
+				"因为我懒得写每种流体一个配方（&2库嘻嘻&r）"
+				"输出量计算公式："
+				"1024×超频后倍速（如MV钻机超频为1.5倍）×权重×10"
 				""
 				"&a后面的任务是为了不上星球加载区块还能用配方送的星球方块&r"
 				"&4不要扔了哦&r"
 				""
+				"&b如果你要升级的话换个HV钻机就够了&r"
+				"即&d进阶流体钻机 II&r"
+				"至于为什么放下一页了"
+				""
+				"如果你真的很需要哪些流体"
+				"&a我更推荐产线撕裂的无限元件&r"
+				"{@pagebreak}"
 				"原版无尽流体钻机用电效率较差"
 				"MV到HV阶段默认赠送1次无损超频并额外提供1次无损超频"
 				"HV到EV阶段再提供1次无损超频"
 				"EV到ZPM阶段强制2次有损超频后耗电×4"
 				"因此针对性加强，改为完全无损超频"
 				"存在数值问题，仅MV到HV阶段的钻机有效率提升；尽管无尽钻机自带无损超频，但等能吃满并行时，大概率已无使用需求"
-				""
-				"&b所以如果你要升级的话换个HV钻机就够了&r"
-				"即&d进阶流体钻机 II&r"
-				"如果你真的很需要哪些流体"
-				"那你就可以使用其他钻机"
-				"更高的功率更高的产出"
-				"&a但我更推荐产线撕裂的无限元件&r"
 			]
 			icon: "gtceu:mv_fluid_drilling_rig"
 			id: "4B7BA4B00F4A93B6"
@@ -232,8 +227,29 @@
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [
-				"&a1.高级仓室-GTMAdvancedHatch&2"
-				""
+				"1.&aGTL Additions"
+				"为GTL添加了很多后期机器和终局内容"
+				"让目标从做出鱼大变成做出星门"
+				"很多私货都是默认需要安装的一个模组"
+				"本私货也是（我没测试过但推荐加）"
+				"很推荐添加"
+				"{@pagebreak}"
+				"2.&a产线爆破 产线撕裂"
+				"这两个是kjs脚本"
+				"删掉了GTL %90的屎"
+				"强劲无比，平衡性爆炸"
+				"加前三思&8&m（本私货比这俩还爆炸）"
+				"{@pagebreak}"
+				"3.&aExtendedAE-Plus"
+				"为AE2添加了大量实用功能和新部件"
+				"具体不想说"
+				"本私货自带一个从不知道哪里顺来一个讲这个模组的任务"
+				"&b默认关闭&r,有需要去"
+				"config\\ftbquests\\quests\\chapters\\extendedaeplu.snbt.disabled"
+				"删掉.disabled"
+				"然后/ftbquests reload"
+				"{@pagebreak}"
+				"4.&a高级仓室-GTMAdvancedHatch&2"
 				"并不独属于GTL的一个格雷科技附属模组"
 				"为GTL中添加了&b电网仓&r和&b自适配电网&r两大神器"
 				"改进了&b无线电网终端的显示&r"
@@ -294,7 +310,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "前有�����，所以����是必要的"
+			subtitle: "&c前有�����，所以����是必要的"
 			tasks: [{
 				id: "09D2B78574A50185"
 				optional_task: true
@@ -440,7 +456,7 @@
 			]
 			icon: "gtceu:large_gas_collector"
 			id: "0D68227276AC02D5"
-			subtitle: "所有重要的事情，都是你教会我的。早安、你好、晚安。还有，再见。"
+			subtitle: "所有重要的事情 \\n都是你教会我的 \\n早安 你好 晚安  \\n 还有 再见    "
 			tasks: [
 				{
 					id: "3DBA0B3806333EBE"
@@ -662,7 +678,7 @@
 				item: "kubejs:ceresstone"
 				type: "item"
 			}]
-			subtitle: "自始便存在却被遗忘的人 自始便不存在却已熟知的房屋"
+			subtitle: "自始便存在却被遗忘的人\\n 自始便不存在却已熟知的房屋"
 			tasks: [{
 				id: "0666A1078D0E94E9"
 				item: {
@@ -798,7 +814,7 @@
 			]
 			icon: "gtceu:naquadah_fuel_bucket"
 			id: "50C409E34F4A20BC"
-			subtitle: "如同那巡礼者们的枯萎花环 来自遥远的异国他乡"
+			subtitle: "如同那巡礼者们的枯萎花环 \\n来自遥远的异国他乡"
 			tasks: [
 				{
 					id: "589F06D97BDBC652"
@@ -882,8 +898,8 @@
 				}
 			]
 			title: "鸿蒙之眼加强"
-			x: 9.0d
-			y: -3.5d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -950,92 +966,26 @@
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [
-				"他终于站在了蒸汽的顶点"
-				"脚下是无数轰鸣的蒸汽涡轮"
-				""
-				"然后"
-				"他开始尽数将其摧毁"
-				"金属的火光和切割声不绝于耳"
-				""
-				"这场破坏持续了数天"
-				"随后他开始将残躯融化"
-				"这痛苦无比"
-				"那每一台涡轮都是他亲手打造"
-				"这个世界并没有其他智慧生物"
-				"陪伴着他的只有机器的轰鸣"
-				"还有取之不尽用之不竭的蒸汽"
-				""
-				"然而他并不是自暴自弃"
-				"他要把这无数台蒸汽涡轮融合"
-				"然而凭那落后的科技是无法做到的"
-				"他能做的"
-				"只有不断燃烧自己的起源"
-				"只有不断锻造新的涡轮"
-				"直到他手中的金属于斯合题"
-				"&o&4直到他的心象熔毁殆尽&r"
-				"{@pagebreak}"
-				"&o&m&8I am the bone of my steam"
-				"&o&m&8Steel is my body, and water is my blood"
-				"&o&m&8I have created over a thousand turbines"
-				"&o&m&8Unknown to naquadah reactor"
-				"&o&m&8Nor known to hyper reactor"
-				"&o&m&8Have withstood MSPT to create many mega steam turbine"
-				"&o&m&8Yet, those hands will never hold EU"
-				"&o&m&8So as I pray......"
-				"{@pagebreak}"
-				"&l&bUnlimited steam turbine Works"
+				"&9OPV&r可做"
+				"配方上写的是2147483648A &4MAX"
+				"实际上，由于还有涡轮转子的产能效率"
+				"可以发4294967296A &4MAX"
+				"等于&b9,223,372,036,854,775,808&rEU/t"
+				"也就是long级发电"
 			]
 			hide_dependency_lines: false
 			icon: "disksavior:steam_is_my_last_life"
 			id: "27B75C8FD6E0ADCE"
 			size: 2.5d
-			subtitle: "&7吾为所持蒸汽骨"
+			subtitle: "看见那圈白色光晕了么？\\n它叫做日冕\\n是太阳炽烈的皇冠\\n&o&8那为什么平时我们看不见它呢？&r\\n因为太阳总是过于刺眼\\n而只有在他一片漆黑的时候\\n你方能得见他的冠冕"
 			tasks: [{
 				id: "7B705122FBE9DCDD"
 				item: "disksavior:steam_is_my_last_life"
 				type: "item"
 			}]
-			title: "&c超凡脱俗"
+			title: "&4吾为所持蒸汽骨"
 			x: 0.0d
 			y: -9.75d
-		}
-		{
-			dependencies: ["38166A02EA474C1E"]
-			description: [""]
-			id: "407ECB9084927CB8"
-			invisible: true
-			rewards: [{
-				id: "705AF210F933B61C"
-				item: {
-					Count: 1
-					id: "ae2:portable_item_cell_16k"
-					tag: {
-						amts: [L;4L]
-						ic: 4L
-						internalCurrentPower: 20000.0d
-						keys: [{
-							"#c": "ae2:i"
-							id: "gtceu:rare_earth_metal_dust"
-						}]
-					}
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "217A9BEE7E35DF7E"
-					optional_task: true
-					type: "checkmark"
-				}
-				{
-					id: "5DA35F5774A37063"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: -4.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -2951,8 +2901,8 @@
 				}
 			]
 			title: "化反鸿蒙"
-			x: 10.0d
-			y: -4.0d
+			x: 11.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -2978,7 +2928,7 @@
 			]
 			title: "创造数据访问仓下调IV"
 			x: -4.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -3089,7 +3039,16 @@
 			description: [
 				"产物太多，所以jei里放不下"
 				"这个配方集成了原版木化和产线爆破的木化出萘"
-				"所以你现在只需要做一台木化了"
+				"但是你还有要做两台木化"
+				"因为还有一台要拿来做净化水终结者"
+				"至于为什么是用木化做"
+				"我也不知道"
+				""
+				"⚠️这个配方用&b蒸馏塔&r也能做哦"
+				"但是jei里产物显示不全"
+				"能做木化的时候还是推荐用木化来运行"
+				""
+				"还有为什么是岩浆做啊"
 			]
 			icon: "gtceu:wood_distillation"
 			id: "6C8FB690B7EC68CF"
@@ -3554,7 +3513,7 @@
 			]
 			icon: "gtladditions:wireless_energy_network_output_terminal"
 			id: "33FFCB775EBEC5F2"
-			subtitle: "以光之姿态经历着生灭循环"
+			subtitle: "吾愿成就世间一切之善行"
 			tasks: [
 				{
 					id: "61A01AB4E0060B36"
@@ -3569,8 +3528,8 @@
 				}
 			]
 			title: "无限电网输出终端阶段下调LUV"
-			x: -4.0d
-			y: -1.0d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -3616,7 +3575,7 @@
 				type: "item"
 			}]
 			title: "末地大礼包"
-			x: 7.5d
+			x: 13.5d
 			y: 0.0d
 		}
 		{
@@ -3713,169 +3672,99 @@
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [
-				"他终于站在了蒸汽的顶点"
-				"脚下是无数轰鸣的蒸汽涡轮"
+				"上面这几个和这个任务是升级蒸汽发电的"
+				"通过总成放蒸汽涡轮里"
+				"换上足够大的动力仓"
+				"推荐GTL ADD的无线电网输出终端"
+				"然后加水"
 				""
-				"&l&o&8很吵"
-				""
-				"为了锻造如此这般神迹"
-				"他的MSPT已经消耗殆尽"
-				""
-				"涡轮的轰鸣声持续了很多年"
-				"然而机器的耗能与日俱增"
-				""
-				"蒸汽涡轮的产能是有限的"
-				"昨日还游刃有余"
-				"今日便捉襟见肘"
-				"再过几日 就连发电用的蒸汽都供不上了"
-				""
-				"&m&n&l&o&4那为什么不用其他发电方式？"
+				"这个是&5EV&r可做&9IV&r可用的"
+				"能发1A &4MAX&r"
 			]
 			id: "1C62F033AA7D5A4F"
-			subtitle: "Caliburn"
+			subtitle: "没有迷雾 唯有镌刻的梦境 \\n啊 纵然不可见 异种之空 \\n啊 众生皆应觉醒 \\n明日全系于你的决意 \\n存在异种引以为傲的\"时\" \\n没有壁垒 看啊 正镌刻着虚无 "
 			tasks: [{
 				id: "3C723079945A24F4"
 				item: "disksavior:steam_1"
 				optional_task: true
 				type: "item"
 			}]
-			title: "&8初窥门径"
+			title: "&8Caliburn"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [
-				"当他第一次来到这个陌生世界时"
-				"模糊的记忆让他甚至连活下去都是奢求"
-				"但他还记得一样东西"
-				"貌似怎么都忘不掉"
-				""
-				"&l&o&8蒸汽"
-				""
-				"他借助脑中残存的记忆"
-				"在失去意识前搭出了一台简陋无比的锅炉"
-				""
-				"就好像是上天都在怜悯他"
-				"一场大雨即刻落下"
-				""
-				"雨水顺着壁上的破洞进到了机器内部"
-				"风将残枝碎叶吹进机器底部"
-				"那堆碎叶中参杂着的燧石与机器壁不断摩擦"
-				"它们摩啊 摩啊"
-				"直到一丝火星落在了碎叶上......"
+				"&f&dLuV&r可做"
+				"256A &4MAX"
 			]
 			id: "4BBBA4538ED34A31"
 			size: 1.25d
-			subtitle: "&f干将&8莫邪"
+			subtitle: "直至旅途的终点 \\n旧日的泰坦尽数陨落... \\n而无名的新王加冕 \\n与万千英雄一同... \\n开创&f救世&r的伟业 "
 			tasks: [{
 				id: "0C626C2B885894EF"
 				item: "disksavior:steam_2"
 				optional_task: true
 				type: "item"
 			}]
-			title: "&b若有所思"
+			title: "&f干将&8莫邪"
 			x: 0.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [
-				"来到这个世界已经有几年了"
-				"一座座机器伫立在这片寂寞的土地上"
-				"他把自己塞进了这蒸汽升腾的狭间"
-				"现在如果不每天与蒸汽肌肤接触"
-				"皮肤先会红肿 随后剧痛"
-				"这很奇怪"
-				"但他并不在意"
-				""
-				"曾经连活下去都是奢求的他"
-				"是蒸汽挽回了他如同风中残烛的生命"
-				""
-				"如今他指尖能捏碎一整个黄昏"
-				"他在每一台蒸汽涡轮上刻下名字"
-				"在每一块发烫的钢铁上"
-				"刻下“我曾来过”的证明"
-				""
-				"就在他铸造涡轮的时候"
-				"他身上的&4 MSPT &r字样却越来越深"
-				"甚至出现一丝血色 "
-				"就像他那早已负增长的EU"
-				""
-				"涡轮每多转一圈"
-				"那块红字便延长一点点"
+				"&3UV&r可做"
+				"65536A &4MAX"
 			]
 			id: "70A954F693563F5C"
 			size: 1.5d
-			subtitle: "&c圣骸布"
+			subtitle: "神明徒留虚妄之言 \\n连人的饥渴也不曾垂怜 \\n道路铺满刺目光芒 \\n神明徒留冷酷相待 \\n穿越燃烧的国度 \\n道路铺满训诫之音 "
 			tasks: [{
 				id: "593DB642DFEA784A"
 				item: "disksavior:steam_3"
 				optional_task: true
 				type: "item"
 			}]
-			title: "&5恍然大悟"
+			title: "&c圣骸布"
 			x: 0.0d
 			y: -6.25d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [
-				"为了应对日益增长的EU需求"
-				"他不得不继续扩张蒸汽涡轮"
-				"一片片钢铁森林从这片土地上拔地而起"
-				"当他终于让电网的赤字变绿"
-				"自己身上的红字也终于突破了50"
-				""
-				"当他想从那片森林跳下时"
-				"就好像时间被删去了一点"
-				"他摔倒了"
-				"同时他看到身上多出来一个数字"
-				"&aTPS：19"
-				""
-				"没有错"
-				""
-				"他的起源正是\"蒸汽\"之起源"
-				"他的生命力基于蒸汽"
-				"然而他过度的使用导致了起源暴走"
-				"其内部流转的时间受其影响稍稍慢了一点"
-				"如果只是这么一点点"
-				"他也不会太过在意"
-				"然而下一秒"
-				"那个数字又变化了"
+				"&2UIV&r可做"
+				"16777216A &4MAX"
 			]
 			id: "738B6DCA4BDD232D"
 			size: 1.75d
-			subtitle: "&f雪下的誓言"
+			subtitle: "如同圣火埃尔莫般熊熊燃烧 \\n消融于天际的呐喊 \\n在遥远的荒野尽头 \\n向着丰饶之岛奋力划桨 \\n嫁予狂暴闪电的怒吼 \\n降下催熟甘霖之日 "
 			tasks: [{
 				id: "0EC9E8A74501A209"
 				item: "disksavior:steam_4"
 				optional_task: true
 				type: "item"
 			}]
-			title: "&6大彻大悟"
+			title: "&f雪下的誓言"
 			x: 0.0d
 			y: -7.75d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [""]
+			icon: "gtceu:titansteel_foil"
 			id: "42DBFD52653745C6"
-			tasks: [
-				{
-					id: "21ED4B85D76B3177"
-					optional_task: true
-					type: "checkmark"
-				}
-				{
-					id: "0826A398F5C6BD9A"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: -3.0d
+			invisible: true
+			subtitle: "请你 什么都不要问 \\n请你 什么都不要说 "
+			tasks: [{
+				id: "21ED4B85D76B3177"
+				optional_task: true
+				type: "checkmark"
+			}]
+			title: "马车"
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -3916,7 +3805,7 @@
 			]
 			icon: "gtceu:primitive_void_ore"
 			id: "6D570EFCB8156651"
-			subtitle: "神明徒留虚妄之言 连人的饥渴也不曾垂怜"
+			subtitle: "恍若色彩朦胧不清的蝴蝶 \\n划着以血肉铸造的船只 "
 			tasks: [
 				{
 					id: "4DE6B43E88E140C3"
@@ -3931,7 +3820,7 @@
 				}
 			]
 			title: "原始矿机电解"
-			x: 8.5d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -3940,6 +3829,7 @@
 				"产物太多jei显示不全"
 				""
 				"让你用两台资源采集模块就能挖所有东西"
+				"一台挖矿，一台抽流体"
 				""
 				"如果直接套用原版的太空电梯数值"
 				"会出现越升级效率越低的情况"
@@ -3953,7 +3843,7 @@
 			]
 			icon: "gtceu:resource_collection"
 			id: "3BE60A131DBBAB68"
-			subtitle: "神明徒留冷酷相待 道路铺满训诫之音"
+			subtitle: "穿越这汹涌的变迁怒涛吧 \\n哪怕遭到俗世污染也无怨无悔 "
 			tasks: [
 				{
 					id: "3C54AF87B75D74DE"
@@ -3968,12 +3858,16 @@
 				}
 			]
 			title: "太空电梯资源采集集大成"
-			x: 9.5d
+			x: 8.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
-			description: [""]
+			description: [
+				"你不用下矿了"
+				"什么，你问我送个水库仓干什么"
+				"那是因为本私货让这个机器靠水也能工作（&2库嘻嘻&r）"
+			]
 			icon: "gtceu:primitive_void_ore"
 			id: "66A65723FD12ABE5"
 			rewards: [
@@ -4000,6 +3894,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "攀爬铁山的男人"
 			tasks: [{
 				id: "04427B85F8F6682F"
 				optional_task: true
@@ -4007,7 +3902,318 @@
 			}]
 			title: "送你一台原始虚空采矿机"
 			x: -1.5d
-			y: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: ["有点小贵"]
+			icon: "gtladditions:wireless_energy_network_output_terminal"
+			id: "0A5548C16EF8F29A"
+			subtitle: "吾愿诛尽世间一切之恶行"
+			tasks: [
+				{
+					id: "7D132B567CC6CD90"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "7CCA24E024EF3123"
+					item: "gtladditions:wireless_energy_network_input_terminal"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "无限电网输入终端阶段下调OPV"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"用下位的并行控制仓能压缩成上位的"
+				""
+				"产线撕裂能做压缩并行控制仓"
+				"但我觉得这还不够"
+				"所以"
+				"&2库嘻嘻"
+			]
+			id: "797C09A4E4192F55"
+			subtitle: "将几万机遇浪费的旗帜翻覆烧毁"
+			tasks: [
+				{
+					id: "69565BB39AE980CD"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "158ADA72C2FB2DF2"
+					item: "gtceu:iv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "314137A29ACAD1D8"
+					item: "gtceu:luv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6EA91C956085C179"
+					item: "gtceu:zpm_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3F910D24AEA42035"
+					item: "gtceu:uv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "131141E92D1991E6"
+					item: "gtceu:uhv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50FAA62624F28880"
+					item: "gtceu:uev_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C1C6881806C69EF"
+					item: "gtceu:uiv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "097C9E77F9FEECD7"
+					item: "gtceu:uxv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "009F161B79A0780D"
+					item: "gtceu:opv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65DEA2043EE45543"
+					item: "gtceu:max_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "102BAB6F5B65C892"
+					item: "gtladditions:super_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "并行控制仓压缩升阶"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"但是jei里产物显示不全"
+				"大化反有无损超频"
+				"不然的话要堆上不少蒸馏塔呢……"
+			]
+			icon: "gtceu:oil_medium_bucket"
+			id: "7AE5D81EBB27DE71"
+			subtitle: "云雾湾"
+			tasks: [
+				{
+					id: "7DB834D98C6E1620"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "7A86AB45A47165E1"
+					item: "gtceu:oil_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "石化工厂配方可用化反运行"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"jei里产物显示不全"
+				"终于不用管那个烦人的烈焰棒了"
+			]
+			icon: "gtceu:slaughterhouse"
+			id: "32754048FD76174F"
+			subtitle: "头颅松脱时 我们就能在靴尖看见云朵"
+			tasks: [
+				{
+					id: "0D58414C5ED266CF"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "48B61C5B3A0858E2"
+					item: "gtceu:slaughterhouse"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "屠宰场电解"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"jei里产物显示不全"
+				"一台顶26台"
+			]
+			icon: "gtceu:greenhouse"
+			id: "422E709728EFA718"
+			subtitle: "若睁开眼 我们就能看见海藻"
+			tasks: [
+				{
+					id: "68778F9905D80B83"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "79804828064DF871"
+					item: "gtceu:greenhouse"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "温室电解"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"由于是辅助类，就直接送了🤪"
+				""
+				"1.&aReHooked"
+				"添加了几个钩爪"
+				"直线发射，没有抛物线"
+				"勾住之后快速拉你过去"
+				"然后固定在那一处"
+				"很方便到各种犄角旮旯的位置修修补补"
+				"&b（存档）配置里可改速度"
+				"推荐拉取速度改到128或192"
+				"其他的距离和发射速度多扣几个0就行"
+				"{@pagebreak}"
+				"2.&aME放置工具  |  ME Placement Tool"
+				"添加了能直接从网络内取物放置的工具"
+				"&8&m还有两个fumo（"
+				"&b多方块放置工具"
+				"建筑手杖 plus"
+				"&bME线缆放置工具"
+				"能放置所有颜色的ME线缆"
+				"还能切换放置规则"
+				"对于大规模布线非常友好"
+				"{@pagebreak}"
+				"3.&a垃圾槽  |  TrashSlot"
+				"加了一个能在几乎所有页面打开的垃圾槽"
+				"DEL扔一格"
+				"SHIFT + DEL扔所有同类物品"
+				"可能会有穿模和ui不适配问题"
+				"{@pagebreak}"
+				"4.&a世界内物品放置  |  Plonk"
+				"不用考虑在GTL加龙之研究会不会崩了"
+				"这个基本复刻了龙研的对应功能"
+				"能把物品放在方块上"
+				"装饰性和收藏功能很强"
+			]
+			icon: "minecraft:emerald"
+			id: "70E09B29025D152D"
+			rewards: [
+				{
+					id: "2F95152C451F785A"
+					item: "rehooked:ender_hook"
+					type: "item"
+				}
+				{
+					id: "06F8DBC1EAF1E187"
+					item: {
+						Count: 1
+						id: "meplacementtool:multiblock_placement_tool"
+						tag: {
+							internalCurrentPower: 2.147E9d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78CB90096DD1E91A"
+					item: {
+						Count: 1
+						id: "meplacementtool:me_cable_placement_tool"
+						tag: {
+							HasUpgrade: 1b
+							internalCurrentPower: 2.147E9d
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&2库嘻嘻~"
+			tasks: [{
+				id: "2DE8919AD859B160"
+				optional_task: true
+				type: "checkmark"
+			}]
+			title: "辅助类"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [""]
+			id: "4790F362E1471FE1"
+			invisible: true
+			tasks: [
+				{
+					id: "40BB0C71865B414B"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "33A4AAD4160FB4FD"
+					item: "minecraft:oak_log"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [""]
+			id: "708EF170B690295C"
+			tasks: [
+				{
+					id: "39AD1BBF1FF38584"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "31CE1F1A32C3D574"
+					item: "minecraft:oak_log"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -4.5d
 		}
 	]
 	title: "硬盘拯救者"

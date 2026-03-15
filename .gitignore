@@ -21,12 +21,15 @@
 !config/ftbquests/quests/
 !config/ftbquests/quests/chapters/
 !config/ftbquests/quests/chapters/disksavior.snbt
+!config/ftbquests/quests/chapters/extendedaeplu.snbt.disabled
 #kubejs
 !Kubejs/
 !Kubejs/client_scripts/
-!kubejs/client_scripts/*丢c*
-
-!Kubejs/*disk*
+!Kubejs/startup_scripts/
+!Kubejs/server_scripts/
+!Kubejs/client_scripts/*disk*
+!Kubejs/startup_scripts/*disk*
+!Kubejs/server_scripts/*disk*
 
 !kubejs/assets/
 !kubejs/assets/disksavior/
