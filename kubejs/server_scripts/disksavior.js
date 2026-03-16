@@ -558,89 +558,6 @@ ServerEvents.recipes(event => {
         .itemOutputs('16384x disksavior:rare_earth_metal_dust_4x')
         .EUt(1)
         .duration(1)
-    //屠宰场电解
-    gtr.electrolyzer('disksavior:slaughterhouse')
-        .notConsumable('64x gtceu:slaughterhouse')
-        .itemOutputs(
-            '16x minecraft:iron_ingot',
-            '16x minecraft:leather',
-            '32x minecraft:bamboo',
-            '32x minecraft:feather',
-            '32x minecraft:string',
-            '16x minecraft:poppy',
-            '16x minecraft:porkchop',
-            '16x minecraft:beef',
-            '16x minecraft:rabbit',
-            '16x minecraft:mutton',
-            '32x minecraft:bone',
-            '16x minecraft:cod',
-            '16x minecraft:salmon',
-            '16x minecraft:rabbit_hide',
-            '8x minecraft:ghast_tear',
-            '32x minecraft:stick',
-            '8x minecraft:ender_pearl',
-            '32x minecraft:gunpowder',
-            '32x minecraft:coal',
-            '16x minecraft:glass_bottle',
-            '16x minecraft:glowstone_dust',
-            '32x minecraft:rotten_flesh',
-            '32x minecraft:gold_nugget',
-            '16x minecraft:spider_eye',
-            '32x minecraft:arrow',
-            '32x minecraft:sugar',
-            '32x minecraft:redstone',
-            '64x minecraft:white_wool',
-            '16x minecraft:emerald',
-            '64x minecraft:wheat',
-            '8x minecraft:rabbit_foot',
-            '32x minecraft:egg',
-            '8x minecraft:blaze_rod',
-            '16x minecraft:gold_ingot',
-            '16x minecraft:copper_ingot',
-            '32x minecraft:carrot',
-            '32x minecraft:potato',
-            'minecraft:wither_skeleton_skull',
-            '16x minecraft:slime_ball',
-            '8x minecraft:nautilus_shell'
-        )
-        .EUt(GTValues.VA[GTValues.MV])
-        .duration(2560)
-    //温室电解
-    gtr.electrolyzer('disksavior:greenhouse')
-        .notConsumable('1024x gtceu:greenhouse')
-        .itemOutputs(
-            "64x gtceu:rubber_log",
-            "64x minecraft:poisonous_potato",
-            "64x minecraft:grass",
-            "64x minecraft:oak_sapling",
-            "64x gtceu:rubber_sapling",
-            "64x minecraft:melon_slice",
-            "64x minecraft:oak_log",
-            "64x minecraft:glow_ink_sac",
-            "64x minecraft:sugar_cane",
-            "64x minecraft:pumpkin",
-            "64x minecraft:sunflower",
-            "64x minecraft:sponge",
-            "64x minecraft:potato",
-            "64x minecraft:bamboo",
-            "64x minecraft:melon",
-            "64x minecraft:nether_wart",
-            "64x minecraft:beetroot",
-            "64x minecraft:brown_mushroom",
-            "64x minecraft:ink_sac",
-            "64x minecraft:apple",
-            "64x minecraft:wheat",
-            "64x minecraft:cactus",
-            "64x minecraft:red_mushroom",
-            "64x minecraft:honeycomb",
-            "64x minecraft:glow_berries",
-            "64x minecraft:carrot",
-            "64x minecraft:kelp",
-            '64x gtceu:sticky_resin',
-            '64x minecraft:cocoa_beans'
-        )
-        .EUt(GTValues.VA[GTValues.MV])
-        .duration(6400)
     //木化集大成
     gtr.wood_distillation('disksavior:wood_distillation_super')
         .itemInputs('80x #minecraft:logs')
@@ -708,72 +625,72 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.MV])
         .duration(800)
     //石化工厂配方可用化反运行
-    gtr.chemical_reactor("disksavior:petrochemical_plant_1")
+    gtr.chemical_reactor('disksavior:petrochemical_plant_1')
         .circuit(1)
-        .inputFluids("gtceu:oil 1000", "gtceu:steam 1000")
-        .outputFluids("gtceu:toluene 60",
-            "gtceu:benzene 180",
-            "gtceu:octane 60",
-            "gtceu:butane 80",
-            "gtceu:butene 100",
-            "gtceu:butadiene 90",
-            "gtceu:propane 80",
-            "gtceu:propene 400",
-            "gtceu:ethane 80",
-            "gtceu:ethylene 400",
-            "gtceu:methane 400",
-            "gtceu:helium 20")
+        .inputFluids('gtceu:oil 1000', 'gtceu:steam 1000')
+        .outputFluids('gtceu:toluene 60',
+            'gtceu:benzene 180',
+            'gtceu:octane 60',
+            'gtceu:butane 80',
+            'gtceu:butene 100',
+            'gtceu:butadiene 90',
+            'gtceu:propane 80',
+            'gtceu:propene 400',
+            'gtceu:ethane 80',
+            'gtceu:ethylene 400',
+            'gtceu:methane 400',
+            'gtceu:helium 20')
         .EUt(GTValues.VA[GTValues.EV])
         .duration(200)
-    gtr.chemical_reactor("disksavior:petrochemical_plant_2")
+    gtr.chemical_reactor('disksavior:petrochemical_plant_2')
         .circuit(1)
-        .inputFluids("gtceu:oil_medium 1000", "gtceu:steam 1000")
-        .outputFluids("gtceu:toluene 40",
-            "gtceu:benzene 200",
-            "gtceu:octane 30",
-            "gtceu:butane 70",
-            "gtceu:butene 100",
-            "gtceu:butadiene 100",
-            "gtceu:propane 30",
-            "gtceu:propene 600",
-            "gtceu:ethane 130",
-            "gtceu:ethylene 1000",
-            "gtceu:methane 1000",
-            "gtceu:helium 10")
+        .inputFluids('gtceu:oil_medium 1000', 'gtceu:steam 1000')
+        .outputFluids('gtceu:toluene 40',
+            'gtceu:benzene 200',
+            'gtceu:octane 30',
+            'gtceu:butane 70',
+            'gtceu:butene 100',
+            'gtceu:butadiene 100',
+            'gtceu:propane 30',
+            'gtceu:propene 600',
+            'gtceu:ethane 130',
+            'gtceu:ethylene 1000',
+            'gtceu:methane 1000',
+            'gtceu:helium 10')
         .EUt(GTValues.VA[GTValues.EV])
         .duration(200)
-    gtr.chemical_reactor("disksavior:petrochemical_plant_3")
+    gtr.chemical_reactor('disksavior:petrochemical_plant_3')
         .circuit(1)
-        .inputFluids("gtceu:oil_heavy 1000", "gtceu:steam 1000")
-        .outputFluids("gtceu:toluene 240",
-            "gtceu:benzene 1200",
-            "gtceu:octane 20",
-            "gtceu:butane 60",
-            "gtceu:butene 240",
-            "gtceu:butadiene 150",
-            "gtceu:propane 30",
-            "gtceu:propene 300",
-            "gtceu:ethane 45",
-            "gtceu:ethylene 450",
-            "gtceu:methane 450",
-            "gtceu:helium 10")
+        .inputFluids('gtceu:oil_heavy 1000', 'gtceu:steam 1000')
+        .outputFluids('gtceu:toluene 240',
+            'gtceu:benzene 1200',
+            'gtceu:octane 20',
+            'gtceu:butane 60',
+            'gtceu:butene 240',
+            'gtceu:butadiene 150',
+            'gtceu:propane 30',
+            'gtceu:propene 300',
+            'gtceu:ethane 45',
+            'gtceu:ethylene 450',
+            'gtceu:methane 450',
+            'gtceu:helium 10')
         .EUt(GTValues.VA[GTValues.EV])
         .duration(200)
-    gtr.chemical_reactor("disksavior:petrochemical_plant_4")
+    gtr.chemical_reactor('disksavior:petrochemical_plant_4')
         .circuit(1)
-        .inputFluids("gtceu:oil_light 1000", "gtceu:steam 1000")
-        .outputFluids("gtceu:toluene 20",
-            "gtceu:benzene 100",
-            "gtceu:octane 20",
-            "gtceu:butane 120",
-            "gtceu:butene 80",
-            "gtceu:butadiene 80",
-            "gtceu:propane 140",
-            "gtceu:propene 90",
-            "gtceu:ethane 200",
-            "gtceu:ethylene 250",
-            "gtceu:methane 2000",
-            "gtceu:helium 40")
+        .inputFluids('gtceu:oil_light 1000', 'gtceu:steam 1000')
+        .outputFluids('gtceu:toluene 20',
+            'gtceu:benzene 100',
+            'gtceu:octane 20',
+            'gtceu:butane 120',
+            'gtceu:butene 80',
+            'gtceu:butadiene 80',
+            'gtceu:propane 140',
+            'gtceu:propene 90',
+            'gtceu:ethane 200',
+            'gtceu:ethylene 250',
+            'gtceu:methane 2000',
+            'gtceu:helium 40')
         .EUt(GTValues.VA[GTValues.EV])
         .duration(200)
     //搅拌机科技

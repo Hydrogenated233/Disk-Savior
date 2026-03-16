@@ -107,6 +107,7 @@ ItemEvents.tooltip(event => {
             text.add('§b提供32768*256倍超频')
             text.add('§7§oI have created over a thousand turbines')
             text.add('§7§oUnknown to naquadah reactor')
+            text.add('§7§oNor known to hyper reactor')
             text.add('§a按住 §eSHIFT§r §a查看谏言')
         }
     })

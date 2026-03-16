@@ -527,7 +527,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UV])
         .duration(2000)
     //进阶无尽钻机钻全部维度流体
-    gtr.chemical_reactor('disksavior:UEV_all')
+    gtr.large_chemical_reactor('disksavior:UEV_all')
         .notConsumable('gtceu:advanced_infinite_driller')
         .outputFluids(
             //主世界
@@ -589,7 +589,7 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:cosmic_element 16777216000')
     //化反鸿蒙
     //集成了来自群友@aach.aic的鸿蒙之眼+
-    gtr.chemical_reactor('disksavior:cosmos_simulation_1')
+    gtr.large_chemical_reactor('disksavior:cosmos_simulation_1')
         .itemInputs('kubejs:quantum_chromodynamic_charge')
         .inputFluids(
             'gtceu:cosmic_element 1024000', 'gtceu:hydrogen 1024000000', 'gtceu:helium 1024000000'
@@ -609,7 +609,7 @@ ServerEvents.recipes(event => {
     //集成了来自群友@aach.aic的鸿蒙之眼+
     //数值十分爆炸
     //相比普通版不加耗电和耗时，因为鸿蒙之眼的耗电和耗时是锁死的，所以这个其实还挺还原
-    gtr.chemical_reactor('disksavior:cosmos_simulation_spuer_pro_max_plus_glodversion_16384')
+    gtr.large_chemical_reactor('disksavior:cosmos_simulation_spuer_pro_max_plus_glodversion_16384')
         .itemInputs('disksavior:quantum_chromodynamic_charge_super')
         .inputFluids(
             'gtceu:cosmic_element 16777216000', 'gtceu:hydrogen 16777216000000', 'gtceu:helium 16777216000000'
@@ -745,4 +745,154 @@ ServerEvents.recipes(event => {
         .itemOutputs(end)
         .EUt(GTValues.VA[GTValues.IV])
         .duration(51 * 256)
+    //屠宰场电解
+    gtr.electrolyzer('disksavior:slaughterhouse')
+        .notConsumable('64x gtceu:slaughterhouse')
+        .itemOutputs(
+            '16x minecraft:iron_ingot',
+            '16x minecraft:leather',
+            '32x minecraft:bamboo',
+            '32x minecraft:feather',
+            '32x minecraft:string',
+            '16x minecraft:poppy',
+            '16x minecraft:porkchop',
+            '16x minecraft:beef',
+            '16x minecraft:rabbit',
+            '16x minecraft:mutton',
+            '32x minecraft:bone',
+            '16x minecraft:cod',
+            '16x minecraft:salmon',
+            '16x minecraft:rabbit_hide',
+            '8x minecraft:ghast_tear',
+            '32x minecraft:stick',
+            '8x minecraft:ender_pearl',
+            '32x minecraft:gunpowder',
+            '32x minecraft:coal',
+            '16x minecraft:glass_bottle',
+            '16x minecraft:glowstone_dust',
+            '32x minecraft:rotten_flesh',
+            '32x minecraft:gold_nugget',
+            '16x minecraft:spider_eye',
+            '32x minecraft:arrow',
+            '32x minecraft:sugar',
+            '32x minecraft:redstone',
+            '64x minecraft:white_wool',
+            '16x minecraft:emerald',
+            '64x minecraft:wheat',
+            '8x minecraft:rabbit_foot',
+            '32x minecraft:egg',
+            '8x minecraft:blaze_rod',
+            '16x minecraft:gold_ingot',
+            '16x minecraft:copper_ingot',
+            '32x minecraft:carrot',
+            '32x minecraft:potato',
+            'minecraft:wither_skeleton_skull',
+            '16x minecraft:slime_ball',
+            '64x minecraft:ink_sac',
+            '64x minecraft:glow_ink_sac',
+            '8x minecraft:nautilus_shell'
+        )
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(2560)
+    //温室电解
+    const ds_greenhouse = ['20x minecraft:oak_sapling', '64x minecraft:oak_log', '20x minecraft:spruce_sapling', '64x minecraft:spruce_log', '20x minecraft:birch_sapling', '64x minecraft:birch_log', '20x minecraft:jungle_sapling', '64x minecraft:jungle_log', '20x minecraft:acacia_sapling', '64x minecraft:acacia_log', '20x minecraft:dark_oak_sapling', '64x minecraft:dark_oak_log', '20x minecraft:mangrove_propagule', '64x minecraft:mangrove_log', '20x minecraft:cherry_sapling', '64x minecraft:cherry_log', '18x minecraft:pumpkin', '2x minecraft:pumpkin_seeds', '48x minecraft:beetroot', '2x minecraft:beetroot_seeds', '48x minecraft:sweet_berries', '24x minecraft:glow_berries', '48x minecraft:wheat', '2x minecraft:wheat_seeds', '18x minecraft:melon', '2x minecraft:melon_seeds', '36x minecraft:carrot', '36x minecraft:sugar_cane', '36x minecraft:kelp', '36x minecraft:cactus', '36x minecraft:potato', '36x minecraft:cocoa_beans', '36x minecraft:brown_mushroom', '36x minecraft:red_mushroom', '36x minecraft:nether_wart', '48x minecraft:bamboo', '48x minecraft:vine', '48x minecraft:sea_pickle', '9x gtceu:rubber_sapling', '48x gtceu:rubber_log', '12x gtceu:sticky_resin', '64x minecraft:poisonous_potato', '64x minecraft:grass', '64x minecraft:melon_slice', '64x minecraft:sunflower', '64x minecraft:sponge', '64x minecraft:honeycomb']
+    gtr.electrolyzer('disksavior:greenhouse')
+        .notConsumable('1024x gtceu:greenhouse')
+        .itemOutputs(ds_greenhouse)
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(6400)
+    //粒子对撞批处理，感谢产线撕裂，代码全是抄他的（
+    const super_particle_collider__recipedata = [
+        {
+            inputFluids: ["gtceu:protactinium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:neptunium 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:curium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:einsteinium 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:liquid_hydrogen 1000", "gtceu:helium_plasma 200"], outputFluids: "gtceu:antiproton 100",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:thorium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:uranium 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:americium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:berkelium 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:californium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:fermium 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:dubnium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:bohrium 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:einsteinium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:mendelevium 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:bismuth 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:astatine 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:plutonium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:curium 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:phosphorus 200", "gtceu:lithium 200"], outputFluids: "gtceu:positive_electron 100",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:roentgenium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:nihonium 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:meitnerium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:roentgenium 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:berkelium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:californium 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:taranium 144", "gtceu:helium 1000"], outputFluids: "gtceu:taranium_rich_liquid_helium_4_plasma 1000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:mendelevium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:lawrencium 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:uranium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:plutonium 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:fermium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:nobelium 4000",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:positive_electron 100", "gtceu:antiproton 100"], outputFluids: "gtceu:antineutron 2",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:antihydrogen 2000", "gtceu:antineutron 2000"], outputFluids: "gtceu:antimatter 100",
+            EUt: 491520, duration: 200
+        }, {
+            inputFluids: ["gtceu:darmstadtium 4096", "gtceu:helium_plasma 4096"], outputFluids: "gtceu:copernicium 4000",
+            EUt: 491520, duration: 200
+        }
+    ]
+    // ===================== 核心修改区 =====================
+    // 原来的 fusion_reactor → 全部换成 super_particle_collider
+    // ======================================================
+    super_particle_collider__recipedata.forEach(r => {
+        let iF1 = r.inputFluids.map(i => `${i.split(' ')[0]} ${Number(i.split(' ')[1]) * 1024}`)
+
+        // 第一步：搅拌机灌装流体（完全不变）
+        gtr.mixer(`disksavior:${r.outputFluids.split(':')[1].split(' ')[0]}_batch_1`)
+            .notConsumable('gtceu:super_particle_collider')
+            .circuit(1)
+            .itemInputs('ae2:fluid_storage_cell_1k')
+            .inputFluids(iF1)
+            .itemOutputs(Item.of('ae2:fluid_storage_cell_1k', packed_cell_fluid_nbt(iF1)))
+            .duration(1)
+            .EUt(1)
+
+        // ===================== 这里是唯一改动 =====================
+        // 旧：gtr.fusion_reactor
+        // 新：gtr.super_particle_collider
+        gtr.electrolyzer(`disksavior:${r.outputFluids.split(':')[1].split(' ')[0]}_batch_2`)
+            .inputs(GTItemof('ae2:fluid_storage_cell_1k', packed_cell_fluid_nbt(iF1)))
+            .EUt(r.EUt)
+            .duration(r.duration * 1024)
+            // 注意：如果你的新机器不需要 fusionStartEU，我已经帮你删掉了！
+            //.fusionStartEU(r.fusionStartEU)
+            .outputFluids(`${r.outputFluids.split(' ')[0]} ${Number(r.outputFluids.split(' ')[1]) * 1024}`)
+    })
 })

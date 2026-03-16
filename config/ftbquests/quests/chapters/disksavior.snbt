@@ -332,6 +332,9 @@
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [
+				"介绍一些私货"
+				"后面有惊喜哦（&2库嘻嘻&r）"
+				""
 				"1.&aGTL Additions"
 				"为GTL添加了很多后期机器和终局内容"
 				"让目标从做出鱼大变成做出星门"
@@ -428,6 +431,8 @@
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [
+				"&b别忘了有个任务还会开局送你一套原始虚空采矿机"
+				""
 				"可能有点没用"
 				"但不太可能没用"
 			]
@@ -448,8 +453,8 @@
 				}
 			]
 			title: "用水的原始矿机"
-			x: 7.0d
-			y: -2.5d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -910,7 +915,6 @@
 			description: [
 				"大化反 30号电路"
 				"&b超能硅岩溶液&r通过&d产线撕裂&r的&b单步硅岩&r出"
-				"富集硅岩燃料和硅岩燃料各一个单步"
 				""
 				"&4注意&r"
 				"出于循环问题，单步硅岩燃料的最终产物会多出富集硅岩废液若干"
@@ -943,7 +947,7 @@
 					type: "item"
 				}
 			]
-			title: "单步硅岩燃料 与 富集硅岩燃料"
+			title: "单步硅岩燃料 与 两步富集硅岩燃料"
 			x: 1.5d
 			y: 5.0d
 		}
@@ -2918,8 +2922,8 @@
 				type: "checkmark"
 			}]
 			title: "激光蚀刻宝石样板礼包"
-			x: 7.0d
-			y: 2.5d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -3144,8 +3148,8 @@
 				}
 			]
 			title: "无限中子素涡轮转子元件"
-			x: 8.0d
-			y: 3.0d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -3591,8 +3595,8 @@
 				}
 			]
 			title: "染料元件包"
-			x: 6.0d
-			y: 2.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -3688,8 +3692,8 @@
 				type: "item"
 			}]
 			title: "末地大礼包"
-			x: 13.5d
-			y: 0.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -3879,7 +3883,7 @@
 			}]
 			title: "马车"
 			x: 1.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -3888,7 +3892,7 @@
 				"jei显示不全"
 				"能出除了钷以外的所有稀土金属"
 			]
-			icon: "gtceu:rare_earth_dust"
+			icon: "gtceu:monazite_dust"
 			id: "29D5C6B3B9AB113E"
 			subtitle: "埃舍尔花期"
 			tasks: [
@@ -3913,7 +3917,7 @@
 			description: [
 				"产物太多jei显示不全"
 				""
-				"别忘了有个任务还会开局送你一套原始虚空采矿机"
+				"&b别忘了有个任务还会开局送你一套原始虚空采矿机"
 				""
 				"耗时计算是用该维度矿物种类*256"
 				"输出量也会*256"
@@ -3936,8 +3940,8 @@
 				}
 			]
 			title: "原始矿机电解"
-			x: 7.5d
-			y: 0.0d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -3977,8 +3981,8 @@
 				}
 			]
 			title: "太空电梯资源采集集大成"
-			x: 8.5d
-			y: 0.0d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -3991,7 +3995,6 @@
 			id: "66A65723FD12ABE5"
 			rewards: [
 				{
-					count: 24
 					id: "4F0ED47E3C6593D6"
 					item: "gtceu:primitive_void_ore"
 					type: "item"
@@ -4165,7 +4168,12 @@
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [
-				"jei里产物显示不全"
+				"屠宰场能出的都能出"
+				"但是删除了一些没用的"
+				"比如各类武器盔甲"
+				"还有不详旗帜"
+				""
+				"&4jei里产物显示不全&r"
 				"终于不用管那个烦人的烈焰棒了"
 			]
 			icon: "gtceu:slaughterhouse"
@@ -4185,13 +4193,17 @@
 				}
 			]
 			title: "屠宰场电解"
-			x: 9.5d
-			y: 0.0d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [
-				"jei里产物显示不全"
+				"能获得所有温室能获得的植物"
+				"甚至有一些温室不能不能获得的"
+				"虽然那些基本都没用（"
+				""
+				"&4jei里产物显示不全&r"
 				"一台顶26台"
 			]
 			icon: "gtceu:greenhouse"
@@ -4211,8 +4223,8 @@
 				}
 			]
 			title: "温室电解"
-			x: 10.5d
-			y: 0.0d
+			x: 9.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
@@ -4301,13 +4313,3403 @@
 			}]
 			title: "辅助类"
 			x: -1.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["38166A02EA474C1E"]
 			description: [""]
 			id: "4790F362E1471FE1"
 			invisible: true
+			rewards: [{
+				id: "47E6C6EDA331A9BF"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"粒子对撞搅拌机\"}"
+						}
+						ic: 21L
+						internalCurrentPower: 19859.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:darmstadtium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:darmstadtium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 2048000L
+											"#c": "ae2:f"
+											id: "gtceu:antihydrogen"
+										}
+										{
+											"#": 2048000L
+											"#c": "ae2:f"
+											id: "gtceu:antineutron"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													2048000L
+													2048000L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:antihydrogen"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:antineutron"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:berkelium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:berkelium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 147456L
+											"#c": "ae2:f"
+											id: "gtceu:taranium"
+										}
+										{
+											"#": 1024000L
+											"#c": "ae2:f"
+											id: "gtceu:helium"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													147456L
+													1024000L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:taranium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:mendelevium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:mendelevium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:super_particle_collider"
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:thorium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:thorium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 204800L
+											"#c": "ae2:f"
+											id: "gtceu:phosphorus"
+										}
+										{
+											"#": 204800L
+											"#c": "ae2:f"
+											id: "gtceu:lithium"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													204800L
+													204800L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:phosphorus"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:lithium"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 1024000L
+											"#c": "ae2:f"
+											id: "gtceu:liquid_hydrogen"
+										}
+										{
+											"#": 204800L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													1024000L
+													204800L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:liquid_hydrogen"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:super_particle_collider"
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:fermium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:fermium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:protactinium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:protactinium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:uranium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:uranium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:plutonium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:plutonium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:roentgenium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:roentgenium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:curium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:curium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:einsteinium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:einsteinium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:meitnerium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:meitnerium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:bismuth"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:bismuth"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:americium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:americium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:californium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:californium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 102400L
+											"#c": "ae2:f"
+											id: "gtceu:positive_electron"
+										}
+										{
+											"#": 102400L
+											"#c": "ae2:f"
+											id: "gtceu:antiproton"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													102400L
+													102400L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:positive_electron"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:antiproton"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									encodePlayer: "rlcyyg1108"
+									in: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: { }
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:dubnium"
+										}
+										{
+											"#": 4194304L
+											"#c": "ae2:f"
+											id: "gtceu:helium_plasma"
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									out: [
+										{
+											"#": 1L
+											"#c": "ae2:i"
+											id: "ae2:fluid_storage_cell_1k"
+											tag: {
+												amts: [L;
+													4194304L
+													4194304L
+												]
+												ic: 2L
+												keys: [
+													{
+														"#c": "ae2:f"
+														id: "gtceu:dubnium"
+													}
+													{
+														"#c": "ae2:f"
+														id: "gtceu:helium_plasma"
+													}
+												]
+											}
+										}
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "40BB0C71865B414B"
@@ -4328,6 +7730,17 @@
 			dependencies: ["38166A02EA474C1E"]
 			description: [""]
 			id: "708EF170B690295C"
+			rewards: [{
+				id: "0A175E813727F952"
+				item: {
+					Count: 1
+					id: "gtlcore:super_portable_item_storage_cell"
+					tag: {
+						internalCurrentPower: 19837.0d
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "39AD1BBF1FF38584"
@@ -4343,6 +7756,6537 @@
 			]
 			x: -4.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"撕裂同款"
+				""
+				"顺带一提，&b样板是我手写的"
+				"&r所以有我的署名……"
+				"我不知道这个会不会影响你在游戏里运行配方"
+				"我没测试过"
+				"如果有的话下次修🤪"
+				""
+				"&b&o下面是撕裂的介绍，我直接搬过来了"
+				"搅拌机合成带nbt（1024倍原料）1k流体元件"
+				"1个1k流体元件在聚变堆直接合成产物"
+				"记住合1k流体元件无限盘"
+				"很可惜 带nbt的1k流体元件只能存在无限物品磁盘/高速无限磁盘这两种磁盘中 这意味着你前期需要借助容器存储这些盘 或者现合现用"
+			]
+			icon: "gtceu:super_particle_collider"
+			id: "4648AD3FF48A8A9B"
+			rewards: [
+				{
+					id: "178D100EA2D1F9F3"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_16k"
+						tag: {
+							RepairCost: 0
+							amts: [L;
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+							]
+							display: {
+								Name: "{\"text\":\"粒子对撞搅拌机\"}"
+							}
+							ic: 21L
+							internalCurrentPower: 19462.5d
+							keys: [
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:darmstadtium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:darmstadtium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:californium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:californium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:uranium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:uranium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 1024000L
+												"#c": "ae2:f"
+												id: "gtceu:liquid_hydrogen"
+											}
+											{
+												"#": 204800L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														1024000L
+														204800L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:liquid_hydrogen"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:plutonium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:plutonium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:americium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:americium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 2048000L
+												"#c": "ae2:f"
+												id: "gtceu:antihydrogen"
+											}
+											{
+												"#": 2048000L
+												"#c": "ae2:f"
+												id: "gtceu:antineutron"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														2048000L
+														2048000L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:antihydrogen"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:antineutron"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:curium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:curium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:roentgenium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:roentgenium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:protactinium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:protactinium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:mendelevium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:mendelevium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{ }
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:thorium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:thorium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{ }
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:fermium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:fermium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:bismuth"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:bismuth"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:meitnerium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:meitnerium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 204800L
+												"#c": "ae2:f"
+												id: "gtceu:phosphorus"
+											}
+											{
+												"#": 204800L
+												"#c": "ae2:f"
+												id: "gtceu:lithium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														204800L
+														204800L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:phosphorus"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:lithium"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:einsteinium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:einsteinium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 102400L
+												"#c": "ae2:f"
+												id: "gtceu:positive_electron"
+											}
+											{
+												"#": 102400L
+												"#c": "ae2:f"
+												id: "gtceu:antiproton"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														102400L
+														102400L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:positive_electron"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:antiproton"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 147456L
+												"#c": "ae2:f"
+												id: "gtceu:taranium"
+											}
+											{
+												"#": 1024000L
+												"#c": "ae2:f"
+												id: "gtceu:helium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														147456L
+														1024000L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:taranium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:berkelium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:berkelium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "gtceu:programmed_circuit"
+												tag: {
+													Configuration: 1
+												}
+											}
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: { }
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:dubnium"
+											}
+											{
+												"#": 4194304L
+												"#c": "ae2:f"
+												id: "gtceu:helium_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:dubnium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2046F2103766A4A8"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_16k"
+						tag: {
+							RepairCost: 0
+							amts: [L;
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+							]
+							display: {
+								Name: "{\"text\":\"粒子对撞1024倍批处理\"}"
+							}
+							ic: 21L
+							internalCurrentPower: 19798.5d
+							keys: [
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:mendelevium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:lawrencium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:thorium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:uranium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:curium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:einsteinium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:roentgenium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:nihonium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:protactinium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:neptunium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:uranium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:plutonium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:darmstadtium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:copernicium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:berkelium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:californium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:plutonium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:curium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														1024000L
+														204800L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:liquid_hydrogen"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 102400L
+												"#c": "ae2:f"
+												id: "gtceu:antiproton"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:bismuth"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:astatine"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														2048000L
+														2048000L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:antihydrogen"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:antineutron"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 102400L
+												"#c": "ae2:f"
+												id: "gtceu:antimatter"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:fermium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:nobelium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:californium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:fermium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:einsteinium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:mendelevium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:meitnerium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:roentgenium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														204800L
+														204800L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:phosphorus"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:lithium"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 102400L
+												"#c": "ae2:f"
+												id: "gtceu:positive_electron"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:americium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:berkelium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														147456L
+														1024000L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:taranium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 1024000L
+												"#c": "ae2:f"
+												id: "gtceu:taranium_rich_liquid_helium_4_plasma"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														102400L
+														102400L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:positive_electron"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:antiproton"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 2048L
+												"#c": "ae2:f"
+												id: "gtceu:antineutron"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "ae2:processing_pattern"
+									tag: {
+										encodePlayer: "rlcyyg1108"
+										in: [
+											{
+												"#": 1L
+												"#c": "ae2:i"
+												id: "ae2:fluid_storage_cell_1k"
+												tag: {
+													amts: [L;
+														4194304L
+														4194304L
+													]
+													ic: 2L
+													keys: [
+														{
+															"#c": "ae2:f"
+															id: "gtceu:dubnium"
+														}
+														{
+															"#c": "ae2:f"
+															id: "gtceu:helium_plasma"
+														}
+													]
+												}
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										out: [
+											{
+												"#": 4096000L
+												"#c": "ae2:f"
+												id: "gtceu:bohrium"
+											}
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "哟咦呀囔塞能呜给哦咦啊啊啊啊啊 \\n啊啊啊呃呀咦噜哦哟啊噜哦呀噶呃啊 "
+			tasks: [
+				{
+					id: "42CE25F81654AA3B"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "56AE2E95618BE570"
+					item: "gtceu:super_particle_collider"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: " 粒子对撞1024倍批处理"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"自带一个地板蓝图"
+				"config/worldedit/schematics/diban.schem"
+				"使用创世神模组导出粘贴"
+				"先//schematic load diban"
+				"再//paste"
+				"&4⚠️注意先测试放置位置！！！！&r"
+				"固定生成在西北方向"
+				"也就是你朝向北方时的左上角"
+				"会有一大块矩形"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "07C4E72156AA3E9F"
+			subtitle: "Die From Sorrow"
+			tasks: [
+				{
+					id: "71F2853E223F46D3"
+					optional_task: true
+					type: "checkmark"
+				}
+				{
+					id: "79722367E599F217"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "地板"
+			x: -1.0d
+			y: 1.0d
 		}
 	]
 	title: "硬盘拯救者"
