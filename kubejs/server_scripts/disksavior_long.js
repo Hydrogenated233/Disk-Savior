@@ -1,4 +1,9 @@
 //东西很多的配方放这
+/*
+
+
+
+*/
 ServerEvents.recipes(event => {
     const gtr = event.recipes.gtceu
     //流体钻机电解
@@ -518,7 +523,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UV])
         .duration(2000)
     //巴纳德C
-    gtr.electrolyzer('disksavior:UEV')
+    gtr.electrolyzer('disksavior:uev')
         .notConsumable('1024x gtceu:zpm_fluid_drilling_rig')
         .notConsumable('kubejs:barnarda_log')
         .outputFluids(
@@ -527,7 +532,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UV])
         .duration(2000)
     //进阶无尽钻机钻全部维度流体
-    gtr.large_chemical_reactor('disksavior:UEV_all')
+    gtr.large_chemical_reactor('disksavior:uev_all')
         .notConsumable('gtceu:advanced_infinite_driller')
         .outputFluids(
             //主世界
@@ -576,7 +581,7 @@ ServerEvents.recipes(event => {
     //批处理16384倍
     //实际数值要-1，因为2147483648x会爆
     //集成了来自群友@aach.aic的鸿蒙之眼+
-    gtr.cosmos_simulation('disksavior:cosmos_simulation_spuer_pro_max_plus_glodversion')
+    gtr.cosmos_simulation('disksavior:cosmos_simulation_super_pro_max_plus_glodversion')
         .itemInputs('disksavior:quantum_chromodynamic_charge_super')
         .itemOutputs(
             '2147483647x gtceu:carbon_dust', '2147483647x gtceu:phosphorus_dust', '2147483647x gtceu:sulfur_dust', '2147483647x gtceu:selenium_dust', '2147483647x gtceu:iodine_dust', '2147483647x gtceu:boron_dust', '2147483647x gtceu:silicon_dust', '2147483647x gtceu:germanium_dust', '2147483647x gtceu:arsenic_dust', '2147483647x gtceu:antimony_dust', '2147483647x gtceu:tellurium_dust', '2147483647x gtceu:astatine_dust', '2147483647x gtceu:aluminium_dust', '2147483647x gtceu:gallium_dust', '2147483647x gtceu:indium_dust', '2147483647x gtceu:tin_dust', '2147483647x gtceu:thallium_dust', '2147483647x gtceu:lead_dust', '2147483647x gtceu:bismuth_dust', '2147483647x gtceu:polonium_dust', '2147483647x gtceu:titanium_dust', '2147483647x gtceu:vanadium_dust', '2147483647x gtceu:chromium_dust', '2147483647x gtceu:manganese_dust', '2147483647x gtceu:iron_dust', '2147483647x gtceu:cobalt_dust', '2147483647x gtceu:nickel_dust', '2147483647x gtceu:copper_dust', '2147483647x gtceu:zinc_dust', '2147483647x gtceu:zirconium_dust', '2147483647x gtceu:niobium_dust', '2147483647x gtceu:molybdenum_dust', '2147483647x gtceu:technetium_dust', '2147483647x gtceu:ruthenium_dust', '2147483647x gtceu:rhodium_dust', '2147483647x gtceu:palladium_dust', '2147483647x gtceu:silver_dust', '2147483647x gtceu:cadmium_dust', '2147483647x gtceu:hafnium_dust', '2147483647x gtceu:tantalum_dust', '2147483647x gtceu:tungsten_dust', '2147483647x gtceu:rhenium_dust', '2147483647x gtceu:osmium_dust', '2147483647x gtceu:iridium_dust', '2147483647x gtceu:platinum_dust', '2147483647x gtceu:gold_dust', '2147483647x gtceu:beryllium_dust', '2147483647x gtceu:magnesium_dust', '2147483647x gtceu:calcium_dust', '2147483647x gtceu:strontium_dust', '2147483647x gtceu:barium_dust', '2147483647x gtceu:radium_dust', '2147483647x gtceu:yttrium_dust', '2147483647x gtceu:lithium_dust', '2147483647x gtceu:sodium_dust', '2147483647x gtceu:potassium_dust', '2147483647x gtceu:rubidium_dust', '2147483647x gtceu:caesium_dust', '2147483647x gtceu:francium_dust', '2147483647x gtceu:scandium_dust', '2147483647x gtceu:actinium_dust', '2147483647x gtceu:thorium_dust', '2147483647x gtceu:protactinium_dust', '2147483647x gtceu:uranium_dust', '2147483647x gtceu:neptunium_dust', '2147483647x gtceu:plutonium_dust', '2147483647x gtceu:americium_dust', '2147483647x gtceu:curium_dust', '2147483647x gtceu:berkelium_dust', '2147483647x gtceu:californium_dust', '2147483647x gtceu:einsteinium_dust', '2147483647x gtceu:fermium_dust', '2147483647x gtceu:mendelevium_dust', '2147483647x gtceu:nobelium_dust', '2147483647x gtceu:lawrencium_dust', '2147483647x gtceu:lanthanum_dust', '2147483647x gtceu:cerium_dust', '2147483647x gtceu:praseodymium_dust', '2147483647x gtceu:neodymium_dust', '2147483647x gtceu:promethium_dust', '2147483647x gtceu:samarium_dust', '2147483647x gtceu:europium_dust', '2147483647x gtceu:gadolinium_dust', '2147483647x gtceu:terbium_dust', '2147483647x gtceu:dysprosium_dust', '2147483647x gtceu:holmium_dust', '2147483647x gtceu:erbium_dust', '2147483647x gtceu:thulium_dust', '2147483647x gtceu:ytterbium_dust', '2147483647x gtceu:lutetium_dust', '2147483647x gtceu:rutherfordium_dust', '2147483647x gtceu:dubnium_dust', '2147483647x gtceu:seaborgium_dust', '2147483647x gtceu:bohrium_dust', '2147483647x gtceu:hassium_dust', '2147483647x gtceu:meitnerium_dust', '2147483647x gtceu:darmstadtium_dust', '2147483647x gtceu:roentgenium_dust', '2147483647x gtceu:copernicium_dust', '2147483647x gtceu:nihonium_dust', '2147483647x gtceu:flerovium_dust', '2147483647x gtceu:moscovium_dust', '2147483647x gtceu:livermorium_dust', '2147483647x gtceu:tennessine_dust', '2147483647x gtceu:oganesson_dust', '2147483647x gtceu:jasper_dust', '2147483647x gtceu:naquadah_dust', '2147483647x gtceu:enriched_naquadah_dust', '2147483647x gtceu:naquadria_dust', '2147483647x gtceu:duranium_dust', '2147483647x gtceu:tritanium_dust', '2147483647x gtceu:mithril_dust', '2147483647x gtceu:orichalcum_dust', '2147483647x gtceu:enderium_dust', '2147483647x gtceu:adamantine_dust', '2147483647x gtceu:vibranium_dust', '2147483647x gtceu:infuscolium_dust', '2147483647x gtceu:taranium_dust', '2147483647x gtceu:draconium_dust', '2147483647x gtceu:starmetal_dust',    //下面的是来自群友@aach.aic 的鸿蒙之眼+，此处已集成
@@ -609,7 +614,7 @@ ServerEvents.recipes(event => {
     //集成了来自群友@aach.aic的鸿蒙之眼+
     //数值十分爆炸
     //相比普通版不加耗电和耗时，因为鸿蒙之眼的耗电和耗时是锁死的，所以这个其实还挺还原
-    gtr.large_chemical_reactor('disksavior:cosmos_simulation_spuer_pro_max_plus_glodversion_16384')
+    gtr.large_chemical_reactor('disksavior:cosmos_simulation_super_pro_max_plus_glodversion_16384')
         .itemInputs('disksavior:quantum_chromodynamic_charge_super')
         .inputFluids(
             'gtceu:cosmic_element 16777216000', 'gtceu:hydrogen 16777216000000', 'gtceu:helium 16777216000000'
@@ -631,42 +636,42 @@ ServerEvents.recipes(event => {
     const space_ores4 = ['80x gtceu:naquadah_ore', '40x gtceu:adamantine_compounds_ore', '60x gtceu:rare_earth_metal_ore', '40x gtceu:monazite_ore', '40x gtceu:bastnasite_ore', '20x gtceu:enriched_naquadah_ore', '40x gtceu:earth_crystal_ore', '40x gtceu:ignis_crystal_ore', '80x gtceu:uraninite_ore', '40x gtceu:orichalcum_ore', '60x gtceu:mithril_ore', '80x gtceu:salt_ore']
     const space_ores5 = ['80x gtceu:enderium_ore', '120x gtceu:sodalite_ore', '60x gtceu:celestine_ore', '80x gtceu:lapis_ore', '60x gtceu:bauxite_ore', '40x gtceu:pitchblende_ore', '40x gtceu:silver_ore', '60x gtceu:andesite_platinum_ore', '60x gtceu:tartarite_ore', '80x gtceu:vibranium_ore', '120x gtceu:aluminium_ore', '120x gtceu:iron_ore']
     const space_ores6 = ['12x gtceu:lazurite_ore', '80x gtceu:sapphire_ore', '60x gtceu:starmetal_ore', '80x gtceu:green_sapphire_ore', '120x gtceu:yellow_garnet_ore', '80x gtceu:pollucite_ore']
-    gtr.miner_module('disksavior:space_ore_1_spuer')
+    gtr.miner_module('disksavior:space_ore_1_super')
         .notConsumable('64x kubejs:space_drone_mk1')
         .notConsumable('32x gtceu:space_elevator')
         .inputFluids('gtceu:steam 185254')
         .itemOutputs(space_ores1)
         .EUt(GTValues.VA[GTValues.ZPM] * 4)
         .duration(9600 / 4)
-    gtr.miner_module('disksavior:space_ore_2_spuer')
+    gtr.miner_module('disksavior:space_ore_2_super')
         .notConsumable('64x kubejs:space_drone_mk2')
         .notConsumable('32x gtceu:space_elevator')
         .inputFluids('gtceu:steam 185254')
         .itemOutputs(space_ores1.concat(space_ores2))
         .EUt(GTValues.VA[GTValues.ZPM] * 16)
         .duration(9600 / 16)
-    gtr.miner_module('disksavior:space_ore_3_spuer')
+    gtr.miner_module('disksavior:space_ore_3_super')
         .notConsumable('64x kubejs:space_drone_mk3')
         .notConsumable('32x gtceu:space_elevator')
         .inputFluids('gtceu:steam 185254')
         .itemOutputs(space_ores1.concat(space_ores2, space_ores3))
         .EUt(GTValues.VA[GTValues.ZPM] * 64)
         .duration(9600 / 64)
-    gtr.miner_module('disksavior:space_ore_4_spuer')
+    gtr.miner_module('disksavior:space_ore_4_super')
         .notConsumable('64x kubejs:space_drone_mk4')
         .notConsumable('32x gtceu:space_elevator')
         .inputFluids('gtceu:steam 185254')
         .itemOutputs(space_ores1.concat(space_ores2, space_ores3, space_ores4))
         .EUt(GTValues.VA[GTValues.ZPM] * 256)
         .duration(9600 / 256)
-    gtr.miner_module('disksavior:space_ore_5_spuer')
+    gtr.miner_module('disksavior:space_ore_5_super')
         .notConsumable('64x kubejs:space_drone_mk5')
         .notConsumable('32x gtceu:space_elevator')
         .inputFluids('gtceu:steam 185254')
         .itemOutputs(space_ores1.concat(space_ores2, space_ores3, space_ores4, space_ores5))
         .EUt(GTValues.VA[GTValues.ZPM] * 1024)
         .duration(9600 / 1024)
-    gtr.miner_module('disksavior:space_ore_6_spuer')
+    gtr.miner_module('disksavior:space_ore_6_super')
         .notConsumable('64x kubejs:space_drone_mk6')
         .notConsumable('32x gtceu:space_elevator')
         .inputFluids('gtceu:steam 185254')
@@ -678,42 +683,42 @@ ServerEvents.recipes(event => {
     const space_fluid1s = ['gtceu:unknowwater 10000', 'gtceu:neon 100000', 'gtceu:argon 100000', 'gtceu:krypton 100000', 'gtceu:xenon 100000', 'gtceu:radon 100000', 'gtceu:helium_3 100000']
     const space_fluid2s = ['gtceu:deuterium 100000', 'gtceu:tritium 100000', 'gtceu:heavy_fuel 100000', 'gtceu:light_fuel 100000', 'gtceu:naphtha 100000', 'gtceu:refinery_gas 100000', 'gtceu:coal_gas 100000', 'gtceu:bromine 100000', 'gtceu:barnarda_air 100000']
     const space_fluid5s = ['gtceu:white_dwarf_mtter 100000', 'gtceu:black_dwarf_mtter 100000']
-    gtr.drilling_module('disksavior:space_fluid_1_spuer')
+    gtr.drilling_module('disksavior:space_fluid_1_super')
         .notConsumable('64x kubejs:space_drone_mk1')
         .notConsumable('32x gtceu:space_elevator')
         .inputFluids('gtceu:steam 185254')
         .outputFluids(space_fluids)
         .EUt(GTValues.VA[GTValues.ZPM] * 4)
         .duration(9600 / 4)
-    gtr.drilling_module('disksavior:space_fluid_2_spuer')
+    gtr.drilling_module('disksavior:space_fluid_2_super')
         .notConsumable('64x kubejs:space_drone_mk2')
         .notConsumable('32x gtceu:space_elevator')
         .inputFluids('gtceu:steam 185254')
         .outputFluids(space_fluids.concat(space_fluid1s))
         .EUt(GTValues.VA[GTValues.ZPM] * 16)
         .duration(9600 / 16)
-    gtr.drilling_module('disksavior:space_fluid_3_spuer')
+    gtr.drilling_module('disksavior:space_fluid_3_super')
         .notConsumable('64x kubejs:space_drone_mk3')
         .notConsumable('32x gtceu:space_elevator')
         .inputFluids('gtceu:steam 185254')
         .outputFluids(space_fluids.concat(space_fluid1s, space_fluid2s))
         .EUt(GTValues.VA[GTValues.ZPM] * 64)
         .duration(9600 / 64)
-    gtr.drilling_module('disksavior:space_fluid_4_spuer')
+    gtr.drilling_module('disksavior:space_fluid_4_super')
         .notConsumable('64x kubejs:space_drone_mk4')
         .notConsumable('32x gtceu:space_elevator')
         .inputFluids('gtceu:steam 185254')
         .outputFluids(space_fluids.concat(space_fluid1s, space_fluid2s))
         .EUt(GTValues.VA[GTValues.ZPM] * 256)
         .duration(9600 / 256)
-    gtr.drilling_module('disksavior:space_fluid_5_spuer')
+    gtr.drilling_module('disksavior:space_fluid_5_super')
         .notConsumable('64x kubejs:space_drone_mk5')
         .notConsumable('32x gtceu:space_elevator')
         .inputFluids('gtceu:steam 185254')
         .outputFluids(space_fluids.concat(space_fluid1s, space_fluid2s))
         .EUt(GTValues.VA[GTValues.ZPM] * 1024)
         .duration(9600 / 1024)
-    gtr.drilling_module('disksavior:space_fluid_6_spuer')
+    gtr.drilling_module('disksavior:space_fluid_6_super')
         .notConsumable('64x kubejs:space_drone_mk6')
         .notConsumable('32x gtceu:space_elevator')
         .inputFluids('gtceu:steam 185254')
@@ -868,13 +873,8 @@ ServerEvents.recipes(event => {
             EUt: 491520, duration: 200
         }
     ]
-    // ===================== 核心修改区 =====================
-    // 原来的 fusion_reactor → 全部换成 super_particle_collider
-    // ======================================================
     super_particle_collider__recipedata.forEach(r => {
         let iF1 = r.inputFluids.map(i => `${i.split(' ')[0]} ${Number(i.split(' ')[1]) * 1024}`)
-
-        // 第一步：搅拌机灌装流体（完全不变）
         gtr.mixer(`disksavior:${r.outputFluids.split(':')[1].split(' ')[0]}_batch_1`)
             .notConsumable('gtceu:super_particle_collider')
             .circuit(1)
@@ -883,16 +883,10 @@ ServerEvents.recipes(event => {
             .itemOutputs(Item.of('ae2:fluid_storage_cell_1k', packed_cell_fluid_nbt(iF1)))
             .duration(1)
             .EUt(1)
-
-        // ===================== 这里是唯一改动 =====================
-        // 旧：gtr.fusion_reactor
-        // 新：gtr.super_particle_collider
-        gtr.electrolyzer(`disksavior:${r.outputFluids.split(':')[1].split(' ')[0]}_batch_2`)
+        gtr.super_particle_collider(`disksavior:${r.outputFluids.split(':')[1].split(' ')[0]}_batch_2`)
             .inputs(GTItemof('ae2:fluid_storage_cell_1k', packed_cell_fluid_nbt(iF1)))
             .EUt(r.EUt)
             .duration(r.duration * 1024)
-            // 注意：如果你的新机器不需要 fusionStartEU，我已经帮你删掉了！
-            //.fusionStartEU(r.fusionStartEU)
             .outputFluids(`${r.outputFluids.split(' ')[0]} ${Number(r.outputFluids.split(' ')[1]) * 1024}`)
     })
 })

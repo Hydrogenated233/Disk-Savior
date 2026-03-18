@@ -4,6 +4,28 @@ ServerEvents.recipes(event=>{
         JsonIO.write("./recipes/" + String(recipe.getId()).replace(/:|\//g, '_') + ".json",recipe.json)
     })
 })
+
+
+git ls-files --full-name | grep -vE '/$|^.gitignore$|^LICENSE$' > list.txt && 7z a -tzip 硬盘拯救者v.zip @list.txt && rm list.txt
+
+
+按下面这个固定格式，把我给的带NBT物品转成KubeJS组装机配方，不要注释、不要修改结构
+gtr.assembler("自定义ID")
+    .itemInputs('数量x 物品')
+    .inputFluids('流体 数量')
+    .itemOutputs('数量x 输出物品')
+    .outputFluids('流体 数量')
+    .EUt(GTValues.VA[GTValues.电压])
+    .duration(时间)
+
+以下是待转换物品：
+
+todo
+新手大礼包
+加点彩蛋
+小集成矿处下调
+产物太多的jei警告
+
 */
 ServerEvents.recipes(event => {
     const gtr = event.recipes.gtceu
@@ -40,7 +62,7 @@ ServerEvents.recipes(event => {
         )
         .inputFluids('gtceu:glue 185254000')
         .itemOutputs(Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"gtceu:turbine_rotor"}}'))
-        .duration(185254)
+        .duration(2000)
         .EUt(1)
     //蒸汽产出
     gtr.fluid_heater('disksavior:steam_is_my_last_life')
@@ -147,7 +169,30 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:glue 1852540000', 'gtceu:steam 35184372088832')
         .itemOutputs('disksavior:steam_is_my_last_life')
         .EUt(GTValues.VA[GTValues.MAX])
-        .duration(2000)
+        .duration(370508420)
+    //圆石爆奇点
+    gtr.electric_implosion_compressor("disksavior:singularity_cobblestone")
+        .circuit(1)
+        .itemInputs("256000x minecraft:cobblestone")
+        .itemOutputs("ae2:singularity")
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(200)
+    //圆石爆物质球
+    gtr.electric_implosion_compressor("disksavior:matter_ball")
+        .circuit(2)
+        .itemInputs("256000x minecraft:cobblestone")
+        .itemOutputs('1000x ae2:matter_ball')
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(200)
+    //工作台合成带nbt的量子纠缠态奇点
+    event.shaped(Item.of('ae2:quantum_entangled_singularity', 2, '{freq:177377961050100L}'), [
+        "AB ",
+        "   ",
+        "   "
+    ], {
+        A: 'ae2:singularity',
+        B: 'gtceu:ender_pearl_dust'
+    })
     //极高密度量子色动力学爆弹
     gtr.compressor('disksavior:quantum_chromodynamic_charge_super')
         .itemInputs('16384x kubejs:quantum_chromodynamic_charge')
@@ -194,6 +239,67 @@ ServerEvents.recipes(event => {
         .outputFluids('gtceu:distilled_water 1000')
         .EUt(GTValues.VA[GTValues.ULV])
         .duration(1)
+    //部件装配线外壳压缩升阶
+    gtr.mixer('disksavior:component_assembly_line_casing_stack_1')
+        .itemInputs('4x gtlcore:component_assembly_line_casing_lv')
+        .itemOutputs('gtlcore:component_assembly_line_casing_mv')
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(200)
+    gtr.mixer('disksavior:component_assembly_line_casing_stack_2')
+        .itemInputs('4x gtlcore:component_assembly_line_casing_mv')
+        .itemOutputs('gtlcore:component_assembly_line_casing_hv')
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(200)
+    gtr.mixer('disksavior:component_assembly_line_casing_stack_3')
+        .itemInputs('4x gtlcore:component_assembly_line_casing_hv')
+        .itemOutputs('gtlcore:component_assembly_line_casing_ev')
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(200)
+    gtr.mixer('disksavior:component_assembly_line_casing_stack_4')
+        .itemInputs('4x gtlcore:component_assembly_line_casing_ev')
+        .itemOutputs('gtlcore:component_assembly_line_casing_iv')
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(200)
+    gtr.mixer('disksavior:component_assembly_line_casing_stack_5')
+        .itemInputs('4x gtlcore:component_assembly_line_casing_iv')
+        .itemOutputs('gtlcore:component_assembly_line_casing_luv')
+        .EUt(GTValues.VA[GTValues.IV])
+        .duration(200)
+    gtr.mixer('disksavior:component_assembly_line_casing_stack_6')
+        .itemInputs('4x gtlcore:component_assembly_line_casing_uv')
+        .itemOutputs('gtlcore:component_assembly_line_casing_uhv')
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(200)
+    gtr.mixer('disksavior:component_assembly_line_casing_stack_7')
+        .itemInputs('4x gtlcore:component_assembly_line_casing_uhv')
+        .itemOutputs('gtlcore:component_assembly_line_casing_uev')
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(200)
+    gtr.mixer('disksavior:component_assembly_line_casing_stack_8')
+        .itemInputs('4x gtlcore:component_assembly_line_casing_uev')
+        .itemOutputs('gtlcore:component_assembly_line_casing_uiv')
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(200)
+    gtr.mixer('disksavior:component_assembly_line_casing_stack_9')
+        .itemInputs('4x gtlcore:component_assembly_line_casing_uiv')
+        .itemOutputs('gtlcore:component_assembly_line_casing_uxv')
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(200)
+    gtr.mixer('disksavior:component_assembly_line_casing_stack_10')
+        .itemInputs('4x gtlcore:component_assembly_line_casing_uxv')
+        .itemOutputs('gtlcore:component_assembly_line_casing_zpm')
+        .EUt(GTValues.VA[GTValues.UXV])
+        .duration(200)
+    gtr.mixer('disksavior:component_assembly_line_casing_stack_11')
+        .itemInputs('4x gtlcore:component_assembly_line_casing_uxv')
+        .itemOutputs('gtlcore:component_assembly_line_casing_opv')
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(200)
+    gtr.mixer('disksavior:component_assembly_line_casing_stack_12')
+        .itemInputs('4x gtlcore:component_assembly_line_casing_opv')
+        .itemOutputs('gtlcore:component_assembly_line_casing_max')
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(200)
     //并行控制仓压缩升阶
     gtr.mixer('disksavior:parallel_hatch_stack_1')
         .itemInputs('4x gtceu:iv_parallel_hatch')
@@ -317,6 +423,35 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:law_cleaning_gravity_configuration_maintenance_hatch')
         .EUt(GTValues.VA[GTValues.ULV])
         .duration(2000)
+    //单步石化脱硫
+    gtr.large_chemical_reactor("disksavior:oil_medium_sulfuric")
+        .notConsumable('gtceu:desulfurizer')
+        .inputFluids('gtceu:oil_medium 120000')
+        .itemOutputs('27x gtceu:sulfur_dust')
+        .outputFluids('gtceu:sulfuric_heavy_fuel 12000', 'gtceu:sulfuric_light_fuel 60000', 'gtceu:sulfuric_naphtha 180000', 'gtceu:sulfuric_gas 72000')
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(20 * 1200 / 4)
+    gtr.large_chemical_reactor("disksavior:oil_heavy_sulfuric")
+        .notConsumable('gtceu:desulfurizer')
+        .inputFluids('gtceu:oil_heavy 80000')
+        .itemOutputs('25x gtceu:sulfur_dust')
+        .outputFluids('gtceu:sulfuric_heavy_fuel 200000', 'gtceu:sulfuric_light_fuel 36000', 'gtceu:sulfuric_naphtha 12000', 'gtceu:sulfuric_gas 48000')
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(20 * 800 / 4)
+    gtr.large_chemical_reactor("disksavior:oil_light_sulfuric")
+        .notConsumable('gtceu:desulfurizer')
+        .inputFluids('gtceu:oil_light 180000')
+        .itemOutputs('30x gtceu:sulfur_dust')
+        .outputFluids('gtceu:sulfuric_heavy_fuel 12000', 'gtceu:sulfuric_light_fuel 24000', 'gtceu:sulfuric_naphtha 36000', 'gtceu:sulfuric_gas 288000')
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(20 * 1200 / 4)
+    gtr.large_chemical_reactor("disksavior:oil_sulfuric")
+        .notConsumable('gtceu:desulfurizer')
+        .inputFluids('gtceu:oil 40000')
+        .itemOutputs('10x gtceu:sulfur_dust')
+        .outputFluids('gtceu:sulfuric_heavy_fuel 12000', 'gtceu:sulfuric_light_fuel 40000', 'gtceu:sulfuric_naphtha 16000', 'gtceu:sulfuric_gas 48000')
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(20 * 800 / 4)
     //水蒸馏出16种净化水
     gtr.wood_distillation('disksavior:water_distillation_super')
         .circuit(1)
@@ -558,6 +693,34 @@ ServerEvents.recipes(event => {
         .itemOutputs('16384x disksavior:rare_earth_metal_dust_4x')
         .EUt(1)
         .duration(1)
+    /*我写完了才发现爆破的比我的效率高，已哭泣
+    //渔场集大成去概率
+    gtr.packer("disksavior:packer_super")
+        .notConsumable('64x gtceu:fishing_ground')
+        .circuit(30)
+        .itemOutputs('459000x minecraft:cod',
+        '191700x minecraft:salmon',
+        '15300x minecraft:tropical_fish',
+        '99900x minecraft:pufferfish',
+        '7200x minecraft:experience_bottle',
+        '7200x minecraft:name_tag',
+        '7200x minecraft:nautilus_shell',
+        '7200x minecraft:saddle',
+        '15300x minecraft:lily_pad',
+        '9000x minecraft:leather',
+        '9000x minecraft:rotten_flesh',
+        '4500x minecraft:stick',
+        '4500x minecraft:string',
+        '9000x minecraft:bone',
+        '50x gtceu:damascus_steel_ingot',
+        '900x minecraft:ink_sac',
+        '9000x minecraft:tripwire_hook',
+        '216x gtceu:ancient_gold_coin',
+        '171x avaritia:neutron_pile',
+        '108x kubejs:zero_point_module_fragments',
+        'minecraft:heart_of_the_sea')
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(200*8192)*/
     //木化集大成
     gtr.wood_distillation('disksavior:wood_distillation_super')
         .itemInputs('80x #minecraft:logs')
@@ -703,7 +866,7 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:glue 185254')
         .itemOutputs('gtceu:wood_distillation')
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(185254)
+        .duration(200)
     //搅拌机合石化工厂
     gtr.mixer('disksavior:petrochemical_plant')
         .itemInputs(
@@ -714,35 +877,37 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:glue 185254')
         .itemOutputs('gtceu:petrochemical_plant')
         .EUt(GTValues.VA[GTValues.HV])
-        .duration(185254)
+        .duration(200)
     //大集气加强
+    //100*16*40*10000*16=10.24GB
+    //基数(B)*催化剂修正值（HV~IV）*升阶补偿（一次无损超频*十倍速=40）*万倍批处理*两次无损超频
     //空气
     gtr.large_gas_collector('disksavior:7')
         .notConsumable('kubejs:overworld_data')
         .notConsumable('gtceu:cold_ice_freezer')
-        .outputFluids('gtceu:liquid_air 64000000')
+        .outputFluids('gtceu:liquid_air 10240000000000')
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(2000)
+        .duration(2000000)
     //下界空气
     gtr.large_gas_collector('disksavior:8')
         .notConsumable('kubejs:nether_data')
         .notConsumable('gtceu:cold_ice_freezer')
-        .outputFluids('gtceu:liquid_nether_air 64000000')
+        .outputFluids('gtceu:liquid_nether_air 10240000000000')
         .EUt(GTValues.VA[GTValues.LuV])
-        .duration(2000)
+        .duration(2000000)
     //末地空气
     gtr.large_gas_collector('disksavior:9')
         .notConsumable('kubejs:end_data')
         .notConsumable('gtceu:cold_ice_freezer')
-        .outputFluids('gtceu:liquid_ender_air 64000000')
+        .outputFluids('gtceu:liquid_ender_air 10240000000000')
         .EUt(GTValues.VA[GTValues.ZPM])
-        .duration(2000)
+        .duration(2000000)
     //巴纳德C空气
     gtr.large_gas_collector('disksavior:10')
         .notConsumable('kubejs:barnarda_log')
-        .outputFluids('gtceu:barnarda_air 100000')
+        .outputFluids('gtceu:barnarda_air 1000000')
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(2000)
     //矿粉还原矿处中间产物
     //闪电处理32号电路
     //晶质铀
@@ -819,13 +984,13 @@ ServerEvents.recipes(event => {
         .itemInputs('gtceu:steel_dust')
         .inputFluids('gtceu:lubricant 100')
         .itemOutputs('gtceu:damascus_steel_dust')
-        .EUt(GTValues.VA[GTValues.LV])
+        .EUt(GTValues.VA[GTValues.MV])
         .duration(200)
     //主世界数据
     gtr.world_data_scanner('disksavior:fd_o')
         .itemInputs(
-            '64x gtceu:stone_dust',
-            'gtceu:data_stick'
+            'gtceu:data_stick',
+            '64x gtceu:stone_dust'
         )
         .circuit(2)
         .inputFluids(
@@ -833,13 +998,13 @@ ServerEvents.recipes(event => {
             'gtceu:air 64000'
         )
         .itemOutputs('kubejs:overworld_data')
-        .EUt(GTValues.VA[GTValues.ULV])
+        .EUt(GTValues.VA[GTValues.LV])
         .duration(20)
     //下界数据
     gtr.world_data_scanner('disksavior:fd_n')
         .itemInputs(
-            '64x gtceu:netherrack_dust',
-            '2x gtceu:data_stick'
+            '2x gtceu:data_stick',
+            '64x gtceu:netherrack_dust'
         )
         .circuit(2)
         .inputFluids(
@@ -847,13 +1012,13 @@ ServerEvents.recipes(event => {
             'gtceu:nether_air 64000'
         )
         .itemOutputs('2x kubejs:nether_data')
-        .EUt(GTValues.VA[GTValues.ULV])
+        .EUt(GTValues.VA[GTValues.MV])
         .duration(20)
     //末地数据
     gtr.world_data_scanner('disksavior:fd_e')
         .itemInputs(
-            '64x gtceu:endstone_dust',
-            '4x gtceu:data_stick'
+            '4x gtceu:data_stick',
+            '64x gtceu:endstone_dust'
         )
         .circuit(2)
         .inputFluids(
@@ -861,6 +1026,6 @@ ServerEvents.recipes(event => {
             'gtceu:ender_air 64000'
         )
         .itemOutputs('4x kubejs:end_data')
-        .EUt(GTValues.VA[GTValues.ULV])
+        .EUt(GTValues.VA[GTValues.HV])
         .duration(20)
 })
